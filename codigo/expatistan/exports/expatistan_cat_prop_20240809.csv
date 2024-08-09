@@ -1,0 +1,511 @@
+,country,category,item_names,item_prices_local_curr,item_prices_usd,categoria_propia
+0,Albania,Food,Basic lunchtime menu (including a drink) in the business district,860.0,9.0,Restaurantes
+1,Albania,Food,Combo meal in fast food restaurant (big mac meal or similar),684.0,7.0,Restaurantes
+2,Albania,Food,500 gr (1 lb.) of boneless chicken breast,495.0,5.38,"Alimentos, bebidas y tabaco"
+3,Albania,Food,1 liter (1 qt.) of whole fat milk,178.0,1.93,"Alimentos, bebidas y tabaco"
+4,Albania,Food,"12 eggs, large",382.0,4.15,"Alimentos, bebidas y tabaco"
+5,Albania,Food,1 kg (2 lb.) of tomatoes,151.0,1.64,"Alimentos, bebidas y tabaco"
+6,Albania,Food,500 gr (16 oz.) of local cheese,671.0,7.0,"Alimentos, bebidas y tabaco"
+7,Albania,Food,1 kg (2 lb.) of apples,131.0,1.43,"Alimentos, bebidas y tabaco"
+8,Albania,Food,1 kg (2 lb.) of potatoes,105.0,1.14,"Alimentos, bebidas y tabaco"
+9,Albania,Food,0.5 l (16 oz) domestic beer in the supermarket,97.0,1.05,"Alimentos, bebidas y tabaco"
+10,Albania,Food,"1 bottle of red table wine, good quality",1054.0,11.0,"Alimentos, bebidas y tabaco"
+11,Albania,Food,2 liters of coca-cola,190.0,2.07,"Alimentos, bebidas y tabaco"
+12,Albania,Food,Bread for 2 people for 1 day,82.0,0.89,"Alimentos, bebidas y tabaco"
+13,Albania,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in expensive area,91804.0,998.0,Alquiler
+14,Albania,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in normal area,49245.0,535.0,Alquiler
+15,Albania,Housing,"Utilities 1 month (heating, electricity, gas ...) for 2 people in 85m2 flat",13504.0,147.0,Servicios públicos
+16,Albania,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in expensive area,55304.0,601.0,Alquiler
+17,Albania,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in normal area,174064.0,1893.0,Alquiler
+18,Albania,Housing,"Utilities 1 month (heating, electricity, gas ...) for 1 person in 45 m2 (480 sqft) studio",11498.0,125.0,Servicios públicos
+19,Albania,Housing,Internet 8 mbps (1 month),5611.0,61.0,Comunicaciones
+20,Albania,Housing,40” flat screen tv,29173.0,317.0,Electrodomésticos
+21,Albania,Housing,"Microwave 800/900 watt (bosch, panasonic, lg, sharp, or equivalent brands)",21880.0,238.0,Electrodomésticos
+22,Albania,Housing,Laundry detergent (3 l. ~ 100 oz.),1296.0,14.0,Cuidado personal
+23,Albania,Housing,Hourly rate for cleaning help,959.0,10.0,Tarifa horaria trabajo doméstico
+24,Albania,Clothes,1 pair of jeans (levis 501 or similar),3917.0,43.0,Ropa y calzado
+25,Albania,Clothes,"1 summer dress in a high street store (zara, h&m or similar retailers)",3564.0,39.0,Ropa y calzado
+26,Albania,Clothes,"1 pair of sport shoes (nike, adidas, or equivalent brands)",8669.0,94.0,Ropa y calzado
+27,Albania,Clothes,1 pair of men’s leather business shoes,12963.0,141.0,Ropa y calzado
+28,Albania,Transportation,"Volkswagen golf 1.4 tsi 150 cv (or equivalent), with no extras, new",994106.0,10809.0,Vehículos
+29,Albania,Transportation,1 liter (1/4 gallon) of gas,188.0,2.05,Nafta
+30,Albania,Transportation,Monthly ticket public transport,1551.0,17.0,Transporte
+31,Albania,Personal Care,"Cold medicine for 6 days (tylenol, frenadol, coldrex, or equivalent brands)",200.0,2.17,Cuidado personal
+32,Albania,Personal Care,1 box of antibiotics (12 doses),669.0,7.0,Cuidado personal
+33,Albania,Personal Care,Short visit to private doctor (15 minutes),2500.0,27.0,Cuidado personal
+34,Albania,Personal Care,"1 box of 32 tampons (tampax, ob, ...)",250.0,2.72,Cuidado personal
+35,Albania,Personal Care,"Deodorant, roll-on (50ml ~ 1.5 oz.)",375.0,4.08,Cuidado personal
+36,Albania,Personal Care,Hair shampoo 2-in-1 (400 ml ~ 12 oz.),413.0,4.49,Cuidado personal
+37,Albania,Personal Care,4 rolls of toilet paper,334.0,3.63,Cuidado personal
+38,Albania,Personal Care,Tube of toothpaste,250.0,2.72,Cuidado personal
+39,Albania,Personal Care,Standard men's haircut in expat area of the city,500.0,5.44,Cuidado personal
+40,Albania,Entertainment,Basic dinner out for two in neighborhood pub,2000.0,22.0,Restaurantes
+41,Albania,Entertainment,2 tickets to the movies,1600.0,17.0,Ocio
+42,Albania,Entertainment,2 tickets to the theater (best available seats),,,Ocio
+43,Albania,Entertainment,"Dinner for two at an italian restaurant in the expat area including appetisers, main course, wine and dessert",3000.0,33.0,Restaurantes
+44,Albania,Entertainment,1 cocktail drink in downtown club,799.0,9.0,Restaurantes
+45,Albania,Entertainment,Cappuccino in expat area of the city,200.0,2.17,Restaurantes
+46,Albania,Entertainment,1 beer in neighbourhood pub (500ml or 1pt.),308.0,3.35,Restaurantes
+47,Albania,Entertainment,Ipad wi-fi 128gb,75000.0,815.0,Comunicaciones
+48,Albania,Entertainment,1 min. of prepaid mobile tariff (no discounts or plans),,,Comunicaciones
+49,Albania,Entertainment,1 month of gym membership in business district,3000.0,33.0,Ocio
+50,Albania,Entertainment,1 package of marlboro cigarettes,340.0,3.69,"Alimentos, bebidas y tabaco"
+0,Algeria,Food,Basic lunchtime menu (including a drink) in the business district,1015.0,8.0,Restaurantes
+1,Algeria,Food,Combo meal in fast food restaurant (big mac meal or similar),629.0,4.67,Restaurantes
+2,Algeria,Food,500 gr (1 lb.) of boneless chicken breast,516.0,3.83,"Alimentos, bebidas y tabaco"
+3,Algeria,Food,1 liter (1 qt.) of whole fat milk,126.0,0.93,"Alimentos, bebidas y tabaco"
+4,Algeria,Food,"12 eggs, large",269.0,2.0,"Alimentos, bebidas y tabaco"
+5,Algeria,Food,1 kg (2 lb.) of tomatoes,91.0,0.68,"Alimentos, bebidas y tabaco"
+6,Algeria,Food,500 gr (16 oz.) of local cheese,586.0,4.35,"Alimentos, bebidas y tabaco"
+7,Algeria,Food,1 kg (2 lb.) of apples,523.0,3.88,"Alimentos, bebidas y tabaco"
+8,Algeria,Food,1 kg (2 lb.) of potatoes,82.0,0.61,"Alimentos, bebidas y tabaco"
+9,Algeria,Food,0.5 l (16 oz) domestic beer in the supermarket,235.0,1.74,"Alimentos, bebidas y tabaco"
+10,Algeria,Food,"1 bottle of red table wine, good quality",1415.0,11.0,"Alimentos, bebidas y tabaco"
+11,Algeria,Food,2 liters of coca-cola,153.0,1.13,"Alimentos, bebidas y tabaco"
+12,Algeria,Food,Bread for 2 people for 1 day,43.0,0.32,"Alimentos, bebidas y tabaco"
+13,Algeria,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in expensive area,82956.0,616.0,Alquiler
+14,Algeria,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in normal area,44876.0,333.0,Alquiler
+15,Algeria,Housing,"Utilities 1 month (heating, electricity, gas ...) for 2 people in 85m2 flat",4422.0,33.0,Servicios públicos
+16,Algeria,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in expensive area,53056.0,394.0,Alquiler
+17,Algeria,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in normal area,30096.0,223.0,Alquiler
+18,Algeria,Housing,"Utilities 1 month (heating, electricity, gas ...) for 1 person in 45 m2 (480 sqft) studio",7813.0,58.0,Servicios públicos
+19,Algeria,Housing,Internet 8 mbps (1 month),1955.0,15.0,Comunicaciones
+20,Algeria,Housing,40” flat screen tv,41141.0,305.0,Electrodomésticos
+21,Algeria,Housing,"Microwave 800/900 watt (bosch, panasonic, lg, sharp, or equivalent brands)",31638.0,235.0,Electrodomésticos
+22,Algeria,Housing,Laundry detergent (3 l. ~ 100 oz.),774.0,5.75,Cuidado personal
+23,Algeria,Housing,Hourly rate for cleaning help,578.0,4.29,Tarifa horaria trabajo doméstico
+24,Algeria,Clothes,1 pair of jeans (levis 501 or similar),4800.0,36.0,Ropa y calzado
+25,Algeria,Clothes,"1 summer dress in a high street store (zara, h&m or similar retailers)",9364.0,70.0,Ropa y calzado
+26,Algeria,Clothes,"1 pair of sport shoes (nike, adidas, or equivalent brands)",19190.0,142.0,Ropa y calzado
+27,Algeria,Clothes,1 pair of men’s leather business shoes,11063.0,82.0,Ropa y calzado
+28,Algeria,Transportation,"Volkswagen golf 1.4 tsi 150 cv (or equivalent), with no extras, new",8000000.0,59399.0,Vehículos
+29,Algeria,Transportation,1 liter (1/4 gallon) of gas,70.0,0.52,Nafta
+30,Algeria,Transportation,Monthly ticket public transport,1967.0,15.0,Transporte
+31,Algeria,Personal Care,"Cold medicine for 6 days (tylenol, frenadol, coldrex, or equivalent brands)",738.0,5.48,Cuidado personal
+32,Algeria,Personal Care,1 box of antibiotics (12 doses),469.0,3.48,Cuidado personal
+33,Algeria,Personal Care,Short visit to private doctor (15 minutes),1797.0,13.0,Cuidado personal
+34,Algeria,Personal Care,"1 box of 32 tampons (tampax, ob, ...)",252.0,1.87,Cuidado personal
+35,Algeria,Personal Care,"Deodorant, roll-on (50ml ~ 1.5 oz.)",544.0,4.04,Cuidado personal
+36,Algeria,Personal Care,Hair shampoo 2-in-1 (400 ml ~ 12 oz.),515.0,3.83,Cuidado personal
+37,Algeria,Personal Care,4 rolls of toilet paper,142.0,1.05,Cuidado personal
+38,Algeria,Personal Care,Tube of toothpaste,443.0,3.29,Cuidado personal
+39,Algeria,Personal Care,Standard men's haircut in expat area of the city,536.0,3.98,Cuidado personal
+40,Algeria,Entertainment,Basic dinner out for two in neighborhood pub,1596.0,12.0,Restaurantes
+41,Algeria,Entertainment,2 tickets to the movies,1510.0,11.0,Ocio
+42,Algeria,Entertainment,2 tickets to the theater (best available seats),2336.0,17.0,Ocio
+43,Algeria,Entertainment,"Dinner for two at an italian restaurant in the expat area including appetisers, main course, wine and dessert",5485.0,41.0,Restaurantes
+44,Algeria,Entertainment,1 cocktail drink in downtown club,790.0,5.86,Restaurantes
+45,Algeria,Entertainment,Cappuccino in expat area of the city,298.0,2.21,Restaurantes
+46,Algeria,Entertainment,1 beer in neighbourhood pub (500ml or 1pt.),364.0,2.71,Restaurantes
+47,Algeria,Entertainment,Ipad wi-fi 128gb,130000.0,965.0,Comunicaciones
+48,Algeria,Entertainment,1 min. of prepaid mobile tariff (no discounts or plans),28.0,0.21,Comunicaciones
+49,Algeria,Entertainment,1 month of gym membership in business district,2579.0,19.0,Ocio
+50,Algeria,Entertainment,1 package of marlboro cigarettes,355.0,2.64,"Alimentos, bebidas y tabaco"
+0,Argentina,Food,Basic lunchtime menu (including a drink) in the business district,13796.0,15.0,Restaurantes
+1,Argentina,Food,Combo meal in fast food restaurant (big mac meal or similar),9238.0,10.0,Restaurantes
+2,Argentina,Food,500 gr (1 lb.) of boneless chicken breast,2908.0,3.11,"Alimentos, bebidas y tabaco"
+3,Argentina,Food,1 liter (1 qt.) of whole fat milk,1334.0,1.43,"Alimentos, bebidas y tabaco"
+4,Argentina,Food,"12 eggs, large",2553.0,2.73,"Alimentos, bebidas y tabaco"
+5,Argentina,Food,1 kg (2 lb.) of tomatoes,2731.0,2.92,"Alimentos, bebidas y tabaco"
+6,Argentina,Food,500 gr (16 oz.) of local cheese,5027.0,5.37,"Alimentos, bebidas y tabaco"
+7,Argentina,Food,1 kg (2 lb.) of apples,2423.0,2.59,"Alimentos, bebidas y tabaco"
+8,Argentina,Food,1 kg (2 lb.) of potatoes,1079.0,1.15,"Alimentos, bebidas y tabaco"
+9,Argentina,Food,0.5 l (16 oz) domestic beer in the supermarket,1571.0,1.68,"Alimentos, bebidas y tabaco"
+10,Argentina,Food,"1 bottle of red table wine, good quality",5842.0,6.0,"Alimentos, bebidas y tabaco"
+11,Argentina,Food,2 liters of coca-cola,2503.0,2.68,"Alimentos, bebidas y tabaco"
+12,Argentina,Food,Bread for 2 people for 1 day,790.0,0.84,"Alimentos, bebidas y tabaco"
+13,Argentina,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in expensive area,698234.0,746.0,Alquiler
+14,Argentina,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in normal area,501595.0,536.0,Alquiler
+15,Argentina,Housing,"Utilities 1 month (heating, electricity, gas ...) for 2 people in 85m2 flat",75197.0,80.0,Servicios públicos
+16,Argentina,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in expensive area,359073.0,384.0,Alquiler
+17,Argentina,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in normal area,287845.0,308.0,Alquiler
+18,Argentina,Housing,"Utilities 1 month (heating, electricity, gas ...) for 1 person in 45 m2 (480 sqft) studio",52341.0,56.0,Servicios públicos
+19,Argentina,Housing,Internet 8 mbps (1 month),18422.0,20.0,Comunicaciones
+20,Argentina,Housing,40” flat screen tv,367123.0,392.0,Electrodomésticos
+21,Argentina,Housing,"Microwave 800/900 watt (bosch, panasonic, lg, sharp, or equivalent brands)",322819.0,345.0,Electrodomésticos
+22,Argentina,Housing,Laundry detergent (3 l. ~ 100 oz.),6056.0,6.0,Cuidado personal
+23,Argentina,Housing,Hourly rate for cleaning help,4193.0,4.48,Tarifa horaria trabajo doméstico
+24,Argentina,Clothes,1 pair of jeans (levis 501 or similar),92193.0,99.0,Ropa y calzado
+25,Argentina,Clothes,"1 summer dress in a high street store (zara, h&m or similar retailers)",56431.0,60.0,Ropa y calzado
+26,Argentina,Clothes,"1 pair of sport shoes (nike, adidas, or equivalent brands)",147197.0,157.0,Ropa y calzado
+27,Argentina,Clothes,1 pair of men’s leather business shoes,121820.0,130.0,Ropa y calzado
+28,Argentina,Transportation,"Volkswagen golf 1.4 tsi 150 cv (or equivalent), with no extras, new",21657000.0,23150.0,Vehículos
+29,Argentina,Transportation,1 liter (1/4 gallon) of gas,928.0,0.99,Nafta
+30,Argentina,Transportation,Monthly ticket public transport,34739.0,37.0,Transporte
+31,Argentina,Personal Care,"Cold medicine for 6 days (tylenol, frenadol, coldrex, or equivalent brands)",8206.0,9.0,Cuidado personal
+32,Argentina,Personal Care,1 box of antibiotics (12 doses),14896.0,16.0,Cuidado personal
+33,Argentina,Personal Care,Short visit to private doctor (15 minutes),22969.0,25.0,Cuidado personal
+34,Argentina,Personal Care,"1 box of 32 tampons (tampax, ob, ...)",4272.0,4.57,Cuidado personal
+35,Argentina,Personal Care,"Deodorant, roll-on (50ml ~ 1.5 oz.)",2380.0,2.54,Cuidado personal
+36,Argentina,Personal Care,Hair shampoo 2-in-1 (400 ml ~ 12 oz.),4614.0,4.93,Cuidado personal
+37,Argentina,Personal Care,4 rolls of toilet paper,3458.0,3.7,Cuidado personal
+38,Argentina,Personal Care,Tube of toothpaste,3709.0,3.96,Cuidado personal
+39,Argentina,Personal Care,Standard men's haircut in expat area of the city,7579.0,8.0,Cuidado personal
+40,Argentina,Entertainment,Basic dinner out for two in neighborhood pub,29802.0,32.0,Restaurantes
+41,Argentina,Entertainment,2 tickets to the movies,12466.0,13.0,Ocio
+42,Argentina,Entertainment,2 tickets to the theater (best available seats),151754.0,162.0,Ocio
+43,Argentina,Entertainment,"Dinner for two at an italian restaurant in the expat area including appetisers, main course, wine and dessert",44634.0,48.0,Restaurantes
+44,Argentina,Entertainment,1 cocktail drink in downtown club,8223.0,9.0,Restaurantes
+45,Argentina,Entertainment,Cappuccino in expat area of the city,3990.0,4.27,Restaurantes
+46,Argentina,Entertainment,1 beer in neighbourhood pub (500ml or 1pt.),3340.0,3.57,Restaurantes
+47,Argentina,Entertainment,Ipad wi-fi 128gb,1326470.0,1418.0,Comunicaciones
+48,Argentina,Entertainment,1 min. of prepaid mobile tariff (no discounts or plans),442.0,0.47,Comunicaciones
+49,Argentina,Entertainment,1 month of gym membership in business district,30583.0,33.0,Ocio
+50,Argentina,Entertainment,1 package of marlboro cigarettes,4078.0,4.36,"Alimentos, bebidas y tabaco"
+0,Armenia,Food,Basic lunchtime menu (including a drink) in the business district,3675.0,9.0,Restaurantes
+1,Armenia,Food,Combo meal in fast food restaurant (big mac meal or similar),3107.0,8.0,Restaurantes
+2,Armenia,Food,500 gr (1 lb.) of boneless chicken breast,1654.0,4.26,"Alimentos, bebidas y tabaco"
+3,Armenia,Food,1 liter (1 qt.) of whole fat milk,813.0,2.1,"Alimentos, bebidas y tabaco"
+4,Armenia,Food,"12 eggs, large",1367.0,3.52,"Alimentos, bebidas y tabaco"
+5,Armenia,Food,1 kg (2 lb.) of tomatoes,1029.0,2.65,"Alimentos, bebidas y tabaco"
+6,Armenia,Food,500 gr (16 oz.) of local cheese,2325.0,5.99,"Alimentos, bebidas y tabaco"
+7,Armenia,Food,1 kg (2 lb.) of apples,874.0,2.25,"Alimentos, bebidas y tabaco"
+8,Armenia,Food,1 kg (2 lb.) of potatoes,298.0,0.77,"Alimentos, bebidas y tabaco"
+9,Armenia,Food,0.5 l (16 oz) domestic beer in the supermarket,534.0,1.37,"Alimentos, bebidas y tabaco"
+10,Armenia,Food,"1 bottle of red table wine, good quality",4767.0,12.0,"Alimentos, bebidas y tabaco"
+11,Armenia,Food,2 liters of coca-cola,1325.0,3.41,"Alimentos, bebidas y tabaco"
+12,Armenia,Food,Bread for 2 people for 1 day,301.0,0.78,"Alimentos, bebidas y tabaco"
+13,Armenia,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in expensive area,559257.0,1441.0,Alquiler
+14,Armenia,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in normal area,309415.0,797.0,Alquiler
+15,Armenia,Housing,"Utilities 1 month (heating, electricity, gas ...) for 2 people in 85m2 flat",38038.0,98.0,Servicios públicos
+16,Armenia,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in expensive area,412781.0,1063.0,Alquiler
+17,Armenia,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in normal area,200000.0,515.0,Alquiler
+18,Armenia,Housing,"Utilities 1 month (heating, electricity, gas ...) for 1 person in 45 m2 (480 sqft) studio",15000.0,39.0,Servicios públicos
+19,Armenia,Housing,Internet 8 mbps (1 month),5711.0,15.0,Comunicaciones
+20,Armenia,Housing,40” flat screen tv,,,Electrodomésticos
+21,Armenia,Housing,"Microwave 800/900 watt (bosch, panasonic, lg, sharp, or equivalent brands)",,,Electrodomésticos
+22,Armenia,Housing,Laundry detergent (3 l. ~ 100 oz.),7681.0,20.0,Cuidado personal
+23,Armenia,Housing,Hourly rate for cleaning help,2500.0,6.0,Tarifa horaria trabajo doméstico
+24,Armenia,Clothes,1 pair of jeans (levis 501 or similar),51110.0,132.0,Ropa y calzado
+25,Armenia,Clothes,"1 summer dress in a high street store (zara, h&m or similar retailers)",22183.0,57.0,Ropa y calzado
+26,Armenia,Clothes,"1 pair of sport shoes (nike, adidas, or equivalent brands)",55047.0,142.0,Ropa y calzado
+27,Armenia,Clothes,1 pair of men’s leather business shoes,50000.0,129.0,Ropa y calzado
+28,Armenia,Transportation,"Volkswagen golf 1.4 tsi 150 cv (or equivalent), with no extras, new",,,Vehículos
+29,Armenia,Transportation,1 liter (1/4 gallon) of gas,540.0,1.39,Nafta
+30,Armenia,Transportation,Monthly ticket public transport,9800.0,25.0,Transporte
+31,Armenia,Personal Care,"Cold medicine for 6 days (tylenol, frenadol, coldrex, or equivalent brands)",1446.0,3.72,Cuidado personal
+32,Armenia,Personal Care,1 box of antibiotics (12 doses),3004.0,8.0,Cuidado personal
+33,Armenia,Personal Care,Short visit to private doctor (15 minutes),14006.0,36.0,Cuidado personal
+34,Armenia,Personal Care,"1 box of 32 tampons (tampax, ob, ...)",1668.0,4.3,Cuidado personal
+35,Armenia,Personal Care,"Deodorant, roll-on (50ml ~ 1.5 oz.)",1615.0,4.16,Cuidado personal
+36,Armenia,Personal Care,Hair shampoo 2-in-1 (400 ml ~ 12 oz.),1291.0,3.33,Cuidado personal
+37,Armenia,Personal Care,4 rolls of toilet paper,1508.0,3.88,Cuidado personal
+38,Armenia,Personal Care,Tube of toothpaste,1502.0,3.87,Cuidado personal
+39,Armenia,Personal Care,Standard men's haircut in expat area of the city,4015.0,10.0,Cuidado personal
+40,Armenia,Entertainment,Basic dinner out for two in neighborhood pub,13403.0,35.0,Restaurantes
+41,Armenia,Entertainment,2 tickets to the movies,5932.0,15.0,Ocio
+42,Armenia,Entertainment,2 tickets to the theater (best available seats),35512.0,91.0,Ocio
+43,Armenia,Entertainment,"Dinner for two at an italian restaurant in the expat area including appetisers, main course, wine and dessert",29872.0,77.0,Restaurantes
+44,Armenia,Entertainment,1 cocktail drink in downtown club,4000.0,10.0,Restaurantes
+45,Armenia,Entertainment,Cappuccino in expat area of the city,1412.0,3.64,Restaurantes
+46,Armenia,Entertainment,1 beer in neighbourhood pub (500ml or 1pt.),1596.0,4.11,Restaurantes
+47,Armenia,Entertainment,Ipad wi-fi 128gb,,,Comunicaciones
+48,Armenia,Entertainment,1 min. of prepaid mobile tariff (no discounts or plans),15.0,0.04,Comunicaciones
+49,Armenia,Entertainment,1 month of gym membership in business district,30320.0,78.0,Ocio
+50,Armenia,Entertainment,1 package of marlboro cigarettes,2281.0,5.88,"Alimentos, bebidas y tabaco"
+0,Australia,Food,Basic lunchtime menu (including a drink) in the business district,24.0,16.0,Restaurantes
+1,Australia,Food,Combo meal in fast food restaurant (big mac meal or similar),15.0,10.0,Restaurantes
+2,Australia,Food,500 gr (1 lb.) of boneless chicken breast,8.0,4.96,"Alimentos, bebidas y tabaco"
+3,Australia,Food,1 liter (1 qt.) of whole fat milk,2.07,1.35,"Alimentos, bebidas y tabaco"
+4,Australia,Food,"12 eggs, large",8.0,4.91,"Alimentos, bebidas y tabaco"
+5,Australia,Food,1 kg (2 lb.) of tomatoes,6.0,4.2,"Alimentos, bebidas y tabaco"
+6,Australia,Food,500 gr (16 oz.) of local cheese,10.0,6.0,"Alimentos, bebidas y tabaco"
+7,Australia,Food,1 kg (2 lb.) of apples,5.02,3.28,"Alimentos, bebidas y tabaco"
+8,Australia,Food,1 kg (2 lb.) of potatoes,3.65,2.38,"Alimentos, bebidas y tabaco"
+9,Australia,Food,0.5 l (16 oz) domestic beer in the supermarket,7.0,4.66,"Alimentos, bebidas y tabaco"
+10,Australia,Food,"1 bottle of red table wine, good quality",23.0,15.0,"Alimentos, bebidas y tabaco"
+11,Australia,Food,2 liters of coca-cola,3.78,2.47,"Alimentos, bebidas y tabaco"
+12,Australia,Food,Bread for 2 people for 1 day,2.43,1.59,"Alimentos, bebidas y tabaco"
+13,Australia,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in expensive area,4636.0,3028.0,Alquiler
+14,Australia,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in normal area,3136.0,2048.0,Alquiler
+15,Australia,Housing,"Utilities 1 month (heating, electricity, gas ...) for 2 people in 85m2 flat",390.0,255.0,Servicios públicos
+16,Australia,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in expensive area,2553.0,1668.0,Alquiler
+17,Australia,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in normal area,1980.0,1294.0,Alquiler
+18,Australia,Housing,"Utilities 1 month (heating, electricity, gas ...) for 1 person in 45 m2 (480 sqft) studio",223.0,146.0,Servicios públicos
+19,Australia,Housing,Internet 8 mbps (1 month),68.0,45.0,Comunicaciones
+20,Australia,Housing,40” flat screen tv,691.0,451.0,Electrodomésticos
+21,Australia,Housing,"Microwave 800/900 watt (bosch, panasonic, lg, sharp, or equivalent brands)",306.0,200.0,Electrodomésticos
+22,Australia,Housing,Laundry detergent (3 l. ~ 100 oz.),19.0,12.0,Cuidado personal
+23,Australia,Housing,Hourly rate for cleaning help,45.0,29.0,Tarifa horaria trabajo doméstico
+24,Australia,Clothes,1 pair of jeans (levis 501 or similar),119.0,78.0,Ropa y calzado
+25,Australia,Clothes,"1 summer dress in a high street store (zara, h&m or similar retailers)",91.0,59.0,Ropa y calzado
+26,Australia,Clothes,"1 pair of sport shoes (nike, adidas, or equivalent brands)",171.0,112.0,Ropa y calzado
+27,Australia,Clothes,1 pair of men’s leather business shoes,176.0,115.0,Ropa y calzado
+28,Australia,Transportation,"Volkswagen golf 1.4 tsi 150 cv (or equivalent), with no extras, new",40123.0,26209.0,Vehículos
+29,Australia,Transportation,1 liter (1/4 gallon) of gas,2.01,1.31,Nafta
+30,Australia,Transportation,Monthly ticket public transport,154.0,101.0,Transporte
+31,Australia,Personal Care,"Cold medicine for 6 days (tylenol, frenadol, coldrex, or equivalent brands)",11.0,7.0,Cuidado personal
+32,Australia,Personal Care,1 box of antibiotics (12 doses),24.0,15.0,Cuidado personal
+33,Australia,Personal Care,Short visit to private doctor (15 minutes),87.0,57.0,Cuidado personal
+34,Australia,Personal Care,"1 box of 32 tampons (tampax, ob, ...)",8.0,5.3,Cuidado personal
+35,Australia,Personal Care,"Deodorant, roll-on (50ml ~ 1.5 oz.)",7.0,4.38,Cuidado personal
+36,Australia,Personal Care,Hair shampoo 2-in-1 (400 ml ~ 12 oz.),9.0,5.93,Cuidado personal
+37,Australia,Personal Care,4 rolls of toilet paper,4.72,3.09,Cuidado personal
+38,Australia,Personal Care,Tube of toothpaste,4.56,2.98,Cuidado personal
+39,Australia,Personal Care,Standard men's haircut in expat area of the city,37.0,24.0,Cuidado personal
+40,Australia,Entertainment,Basic dinner out for two in neighborhood pub,71.0,46.0,Restaurantes
+41,Australia,Entertainment,2 tickets to the movies,47.0,30.0,Ocio
+42,Australia,Entertainment,2 tickets to the theater (best available seats),266.0,174.0,Ocio
+43,Australia,Entertainment,"Dinner for two at an italian restaurant in the expat area including appetisers, main course, wine and dessert",129.0,85.0,Restaurantes
+44,Australia,Entertainment,1 cocktail drink in downtown club,21.0,14.0,Restaurantes
+45,Australia,Entertainment,Cappuccino in expat area of the city,5.19,3.39,Restaurantes
+46,Australia,Entertainment,1 beer in neighbourhood pub (500ml or 1pt.),11.0,7.0,Restaurantes
+47,Australia,Entertainment,Ipad wi-fi 128gb,937.0,612.0,Comunicaciones
+48,Australia,Entertainment,1 min. of prepaid mobile tariff (no discounts or plans),0.69,0.45,Comunicaciones
+49,Australia,Entertainment,1 month of gym membership in business district,90.0,59.0,Ocio
+50,Australia,Entertainment,1 package of marlboro cigarettes,47.0,31.0,"Alimentos, bebidas y tabaco"
+0,Austria,Food,Basic lunchtime menu (including a drink) in the business district,19.0,21.0,Restaurantes
+1,Austria,Food,Combo meal in fast food restaurant (big mac meal or similar),11.0,12.0,Restaurantes
+2,Austria,Food,500 gr (1 lb.) of boneless chicken breast,7.0,7.0,"Alimentos, bebidas y tabaco"
+3,Austria,Food,1 liter (1 qt.) of whole fat milk,1.42,1.56,"Alimentos, bebidas y tabaco"
+4,Austria,Food,"12 eggs, large",5.16,5.64,"Alimentos, bebidas y tabaco"
+5,Austria,Food,1 kg (2 lb.) of tomatoes,4.55,4.97,"Alimentos, bebidas y tabaco"
+6,Austria,Food,500 gr (16 oz.) of local cheese,7.0,8.0,"Alimentos, bebidas y tabaco"
+7,Austria,Food,1 kg (2 lb.) of apples,2.29,2.5,"Alimentos, bebidas y tabaco"
+8,Austria,Food,1 kg (2 lb.) of potatoes,2.37,2.59,"Alimentos, bebidas y tabaco"
+9,Austria,Food,0.5 l (16 oz) domestic beer in the supermarket,1.19,1.3,"Alimentos, bebidas y tabaco"
+10,Austria,Food,"1 bottle of red table wine, good quality",7.0,8.0,"Alimentos, bebidas y tabaco"
+11,Austria,Food,2 liters of coca-cola,3.17,3.47,"Alimentos, bebidas y tabaco"
+12,Austria,Food,Bread for 2 people for 1 day,1.88,2.05,"Alimentos, bebidas y tabaco"
+13,Austria,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in expensive area,1645.0,1797.0,Alquiler
+14,Austria,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in normal area,1175.0,1284.0,Alquiler
+15,Austria,Housing,"Utilities 1 month (heating, electricity, gas ...) for 2 people in 85m2 flat",247.0,270.0,Servicios públicos
+16,Austria,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in expensive area,970.0,1060.0,Alquiler
+17,Austria,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in normal area,682.0,745.0,Alquiler
+18,Austria,Housing,"Utilities 1 month (heating, electricity, gas ...) for 1 person in 45 m2 (480 sqft) studio",112.0,122.0,Servicios públicos
+19,Austria,Housing,Internet 8 mbps (1 month),29.0,32.0,Comunicaciones
+20,Austria,Housing,40” flat screen tv,482.0,527.0,Electrodomésticos
+21,Austria,Housing,"Microwave 800/900 watt (bosch, panasonic, lg, sharp, or equivalent brands)",114.0,125.0,Electrodomésticos
+22,Austria,Housing,Laundry detergent (3 l. ~ 100 oz.),13.0,14.0,Cuidado personal
+23,Austria,Housing,Hourly rate for cleaning help,19.0,20.0,Tarifa horaria trabajo doméstico
+24,Austria,Clothes,1 pair of jeans (levis 501 or similar),91.0,100.0,Ropa y calzado
+25,Austria,Clothes,"1 summer dress in a high street store (zara, h&m or similar retailers)",36.0,40.0,Ropa y calzado
+26,Austria,Clothes,"1 pair of sport shoes (nike, adidas, or equivalent brands)",98.0,107.0,Ropa y calzado
+27,Austria,Clothes,1 pair of men’s leather business shoes,104.0,113.0,Ropa y calzado
+28,Austria,Transportation,"Volkswagen golf 1.4 tsi 150 cv (or equivalent), with no extras, new",27495.0,30038.0,Vehículos
+29,Austria,Transportation,1 liter (1/4 gallon) of gas,1.7,1.86,Nafta
+30,Austria,Transportation,Monthly ticket public transport,49.0,53.0,Transporte
+31,Austria,Personal Care,"Cold medicine for 6 days (tylenol, frenadol, coldrex, or equivalent brands)",15.0,16.0,Cuidado personal
+32,Austria,Personal Care,1 box of antibiotics (12 doses),13.0,14.0,Cuidado personal
+33,Austria,Personal Care,Short visit to private doctor (15 minutes),122.0,133.0,Cuidado personal
+34,Austria,Personal Care,"1 box of 32 tampons (tampax, ob, ...)",5.0,5.46,Cuidado personal
+35,Austria,Personal Care,"Deodorant, roll-on (50ml ~ 1.5 oz.)",3.11,3.4,Cuidado personal
+36,Austria,Personal Care,Hair shampoo 2-in-1 (400 ml ~ 12 oz.),3.78,4.12,Cuidado personal
+37,Austria,Personal Care,4 rolls of toilet paper,1.84,2.01,Cuidado personal
+38,Austria,Personal Care,Tube of toothpaste,2.84,3.1,Cuidado personal
+39,Austria,Personal Care,Standard men's haircut in expat area of the city,23.0,25.0,Cuidado personal
+40,Austria,Entertainment,Basic dinner out for two in neighborhood pub,40.0,44.0,Restaurantes
+41,Austria,Entertainment,2 tickets to the movies,22.0,24.0,Ocio
+42,Austria,Entertainment,2 tickets to the theater (best available seats),270.0,295.0,Ocio
+43,Austria,Entertainment,"Dinner for two at an italian restaurant in the expat area including appetisers, main course, wine and dessert",63.0,69.0,Restaurantes
+44,Austria,Entertainment,1 cocktail drink in downtown club,12.0,13.0,Restaurantes
+45,Austria,Entertainment,Cappuccino in expat area of the city,3.75,4.1,Restaurantes
+46,Austria,Entertainment,1 beer in neighbourhood pub (500ml or 1pt.),5.27,5.76,Restaurantes
+47,Austria,Entertainment,Ipad wi-fi 128gb,538.0,587.0,Comunicaciones
+48,Austria,Entertainment,1 min. of prepaid mobile tariff (no discounts or plans),0.1,0.11,Comunicaciones
+49,Austria,Entertainment,1 month of gym membership in business district,40.0,44.0,Ocio
+50,Austria,Entertainment,1 package of marlboro cigarettes,6.0,7.0,"Alimentos, bebidas y tabaco"
+0,Azerbaijan,Food,Basic lunchtime menu (including a drink) in the business district,23.0,14.0,Restaurantes
+1,Azerbaijan,Food,Combo meal in fast food restaurant (big mac meal or similar),20.0,12.0,Restaurantes
+2,Azerbaijan,Food,500 gr (1 lb.) of boneless chicken breast,7.0,4.41,"Alimentos, bebidas y tabaco"
+3,Azerbaijan,Food,1 liter (1 qt.) of whole fat milk,2.25,1.32,"Alimentos, bebidas y tabaco"
+4,Azerbaijan,Food,"12 eggs, large",3.23,1.9,"Alimentos, bebidas y tabaco"
+5,Azerbaijan,Food,1 kg (2 lb.) of tomatoes,3.08,1.82,"Alimentos, bebidas y tabaco"
+6,Azerbaijan,Food,500 gr (16 oz.) of local cheese,10.0,5.8,"Alimentos, bebidas y tabaco"
+7,Azerbaijan,Food,1 kg (2 lb.) of apples,1.95,1.15,"Alimentos, bebidas y tabaco"
+8,Azerbaijan,Food,1 kg (2 lb.) of potatoes,1.57,0.92,"Alimentos, bebidas y tabaco"
+9,Azerbaijan,Food,0.5 l (16 oz) domestic beer in the supermarket,2.14,1.26,"Alimentos, bebidas y tabaco"
+10,Azerbaijan,Food,"1 bottle of red table wine, good quality",17.0,10.0,"Alimentos, bebidas y tabaco"
+11,Azerbaijan,Food,2 liters of coca-cola,2.02,1.19,"Alimentos, bebidas y tabaco"
+12,Azerbaijan,Food,Bread for 2 people for 1 day,1.06,0.62,"Alimentos, bebidas y tabaco"
+13,Azerbaijan,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in expensive area,1018.0,599.0,Alquiler
+14,Azerbaijan,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in normal area,668.0,393.0,Alquiler
+15,Azerbaijan,Housing,"Utilities 1 month (heating, electricity, gas ...) for 2 people in 85m2 flat",88.0,52.0,Servicios públicos
+16,Azerbaijan,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in expensive area,811.0,477.0,Alquiler
+17,Azerbaijan,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in normal area,426.0,251.0,Alquiler
+18,Azerbaijan,Housing,"Utilities 1 month (heating, electricity, gas ...) for 1 person in 45 m2 (480 sqft) studio",61.0,36.0,Servicios públicos
+19,Azerbaijan,Housing,Internet 8 mbps (1 month),16.0,10.0,Comunicaciones
+20,Azerbaijan,Housing,40” flat screen tv,584.0,344.0,Electrodomésticos
+21,Azerbaijan,Housing,"Microwave 800/900 watt (bosch, panasonic, lg, sharp, or equivalent brands)",239.0,141.0,Electrodomésticos
+22,Azerbaijan,Housing,Laundry detergent (3 l. ~ 100 oz.),18.0,10.0,Cuidado personal
+23,Azerbaijan,Housing,Hourly rate for cleaning help,17.0,10.0,Tarifa horaria trabajo doméstico
+24,Azerbaijan,Clothes,1 pair of jeans (levis 501 or similar),85.0,50.0,Ropa y calzado
+25,Azerbaijan,Clothes,"1 summer dress in a high street store (zara, h&m or similar retailers)",134.0,79.0,Ropa y calzado
+26,Azerbaijan,Clothes,"1 pair of sport shoes (nike, adidas, or equivalent brands)",345.0,203.0,Ropa y calzado
+27,Azerbaijan,Clothes,1 pair of men’s leather business shoes,170.0,100.0,Ropa y calzado
+28,Azerbaijan,Transportation,"Volkswagen golf 1.4 tsi 150 cv (or equivalent), with no extras, new",20114.0,11840.0,Vehículos
+29,Azerbaijan,Transportation,1 liter (1/4 gallon) of gas,1.39,0.82,Nafta
+30,Azerbaijan,Transportation,Monthly ticket public transport,32.0,19.0,Transporte
+31,Azerbaijan,Personal Care,"Cold medicine for 6 days (tylenol, frenadol, coldrex, or equivalent brands)",5.74,3.38,Cuidado personal
+32,Azerbaijan,Personal Care,1 box of antibiotics (12 doses),14.0,9.0,Cuidado personal
+33,Azerbaijan,Personal Care,Short visit to private doctor (15 minutes),54.0,32.0,Cuidado personal
+34,Azerbaijan,Personal Care,"1 box of 32 tampons (tampax, ob, ...)",7.0,4.12,Cuidado personal
+35,Azerbaijan,Personal Care,"Deodorant, roll-on (50ml ~ 1.5 oz.)",8.0,4.63,Cuidado personal
+36,Azerbaijan,Personal Care,Hair shampoo 2-in-1 (400 ml ~ 12 oz.),10.0,5.79,Cuidado personal
+37,Azerbaijan,Personal Care,4 rolls of toilet paper,4.0,2.35,Cuidado personal
+38,Azerbaijan,Personal Care,Tube of toothpaste,2.69,1.58,Cuidado personal
+39,Azerbaijan,Personal Care,Standard men's haircut in expat area of the city,26.0,15.0,Cuidado personal
+40,Azerbaijan,Entertainment,Basic dinner out for two in neighborhood pub,48.0,28.0,Restaurantes
+41,Azerbaijan,Entertainment,2 tickets to the movies,15.0,9.0,Ocio
+42,Azerbaijan,Entertainment,2 tickets to the theater (best available seats),,,Ocio
+43,Azerbaijan,Entertainment,"Dinner for two at an italian restaurant in the expat area including appetisers, main course, wine and dessert",125.0,74.0,Restaurantes
+44,Azerbaijan,Entertainment,1 cocktail drink in downtown club,10.0,5.89,Restaurantes
+45,Azerbaijan,Entertainment,Cappuccino in expat area of the city,7.0,3.93,Restaurantes
+46,Azerbaijan,Entertainment,1 beer in neighbourhood pub (500ml or 1pt.),2.8,1.65,Restaurantes
+47,Azerbaijan,Entertainment,Ipad wi-fi 128gb,1500.0,883.0,Comunicaciones
+48,Azerbaijan,Entertainment,1 min. of prepaid mobile tariff (no discounts or plans),0.05,0.03,Comunicaciones
+49,Azerbaijan,Entertainment,1 month of gym membership in business district,144.0,85.0,Ocio
+50,Azerbaijan,Entertainment,1 package of marlboro cigarettes,7.0,4.37,"Alimentos, bebidas y tabaco"
+0,Bangladesh,Food,Basic lunchtime menu (including a drink) in the business district,465.0,3.95,Restaurantes
+1,Bangladesh,Food,Combo meal in fast food restaurant (big mac meal or similar),452.0,3.84,Restaurantes
+2,Bangladesh,Food,500 gr (1 lb.) of boneless chicken breast,272.0,2.31,"Alimentos, bebidas y tabaco"
+3,Bangladesh,Food,1 liter (1 qt.) of whole fat milk,87.0,0.74,"Alimentos, bebidas y tabaco"
+4,Bangladesh,Food,"12 eggs, large",151.0,1.29,"Alimentos, bebidas y tabaco"
+5,Bangladesh,Food,1 kg (2 lb.) of tomatoes,91.0,0.77,"Alimentos, bebidas y tabaco"
+6,Bangladesh,Food,500 gr (16 oz.) of local cheese,469.0,3.99,"Alimentos, bebidas y tabaco"
+7,Bangladesh,Food,1 kg (2 lb.) of apples,291.0,2.48,"Alimentos, bebidas y tabaco"
+8,Bangladesh,Food,1 kg (2 lb.) of potatoes,59.0,0.5,"Alimentos, bebidas y tabaco"
+9,Bangladesh,Food,0.5 l (16 oz) domestic beer in the supermarket,779.0,7.0,"Alimentos, bebidas y tabaco"
+10,Bangladesh,Food,"1 bottle of red table wine, good quality",1747.0,15.0,"Alimentos, bebidas y tabaco"
+11,Bangladesh,Food,2 liters of coca-cola,133.0,1.14,"Alimentos, bebidas y tabaco"
+12,Bangladesh,Food,Bread for 2 people for 1 day,79.0,0.67,"Alimentos, bebidas y tabaco"
+13,Bangladesh,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in expensive area,53153.0,452.0,Alquiler
+14,Bangladesh,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in normal area,32697.0,278.0,Alquiler
+15,Bangladesh,Housing,"Utilities 1 month (heating, electricity, gas ...) for 2 people in 85m2 flat",3945.0,34.0,Servicios públicos
+16,Bangladesh,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in expensive area,51763.0,440.0,Alquiler
+17,Bangladesh,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in normal area,26112.0,222.0,Alquiler
+18,Bangladesh,Housing,"Utilities 1 month (heating, electricity, gas ...) for 1 person in 45 m2 (480 sqft) studio",10000.0,85.0,Servicios públicos
+19,Bangladesh,Housing,Internet 8 mbps (1 month),839.0,7.0,Comunicaciones
+20,Bangladesh,Housing,40” flat screen tv,46509.0,396.0,Electrodomésticos
+21,Bangladesh,Housing,"Microwave 800/900 watt (bosch, panasonic, lg, sharp, or equivalent brands)",20820.0,177.0,Electrodomésticos
+22,Bangladesh,Housing,Laundry detergent (3 l. ~ 100 oz.),533.0,4.54,Cuidado personal
+23,Bangladesh,Housing,Hourly rate for cleaning help,,,Tarifa horaria trabajo doméstico
+24,Bangladesh,Clothes,1 pair of jeans (levis 501 or similar),2838.0,24.0,Ropa y calzado
+25,Bangladesh,Clothes,"1 summer dress in a high street store (zara, h&m or similar retailers)",2760.0,23.0,Ropa y calzado
+26,Bangladesh,Clothes,"1 pair of sport shoes (nike, adidas, or equivalent brands)",6657.0,57.0,Ropa y calzado
+27,Bangladesh,Clothes,1 pair of men’s leather business shoes,5430.0,46.0,Ropa y calzado
+28,Bangladesh,Transportation,"Volkswagen golf 1.4 tsi 150 cv (or equivalent), with no extras, new",5330940.0,45357.0,Vehículos
+29,Bangladesh,Transportation,1 liter (1/4 gallon) of gas,111.0,0.94,Nafta
+30,Bangladesh,Transportation,Monthly ticket public transport,2879.0,24.0,Transporte
+31,Bangladesh,Personal Care,"Cold medicine for 6 days (tylenol, frenadol, coldrex, or equivalent brands)",836.0,7.0,Cuidado personal
+32,Bangladesh,Personal Care,1 box of antibiotics (12 doses),682.0,5.8,Cuidado personal
+33,Bangladesh,Personal Care,Short visit to private doctor (15 minutes),1500.0,13.0,Cuidado personal
+34,Bangladesh,Personal Care,"1 box of 32 tampons (tampax, ob, ...)",360.0,3.06,Cuidado personal
+35,Bangladesh,Personal Care,"Deodorant, roll-on (50ml ~ 1.5 oz.)",411.0,3.5,Cuidado personal
+36,Bangladesh,Personal Care,Hair shampoo 2-in-1 (400 ml ~ 12 oz.),625.0,5.32,Cuidado personal
+37,Bangladesh,Personal Care,4 rolls of toilet paper,102.0,0.87,Cuidado personal
+38,Bangladesh,Personal Care,Tube of toothpaste,129.0,1.1,Cuidado personal
+39,Bangladesh,Personal Care,Standard men's haircut in expat area of the city,380.0,3.23,Cuidado personal
+40,Bangladesh,Entertainment,Basic dinner out for two in neighborhood pub,1745.0,15.0,Restaurantes
+41,Bangladesh,Entertainment,2 tickets to the movies,1036.0,9.0,Ocio
+42,Bangladesh,Entertainment,2 tickets to the theater (best available seats),3122.0,27.0,Ocio
+43,Bangladesh,Entertainment,"Dinner for two at an italian restaurant in the expat area including appetisers, main course, wine and dessert",4029.0,34.0,Restaurantes
+44,Bangladesh,Entertainment,1 cocktail drink in downtown club,1519.0,13.0,Restaurantes
+45,Bangladesh,Entertainment,Cappuccino in expat area of the city,605.0,5.15,Restaurantes
+46,Bangladesh,Entertainment,1 beer in neighbourhood pub (500ml or 1pt.),509.0,4.33,Restaurantes
+47,Bangladesh,Entertainment,Ipad wi-fi 128gb,35756.0,304.0,Comunicaciones
+48,Bangladesh,Entertainment,1 min. of prepaid mobile tariff (no discounts or plans),,,Comunicaciones
+49,Bangladesh,Entertainment,1 month of gym membership in business district,1991.0,17.0,Ocio
+50,Bangladesh,Entertainment,1 package of marlboro cigarettes,293.0,2.49,"Alimentos, bebidas y tabaco"
+0,Belarus,Food,Basic lunchtime menu (including a drink) in the business district,31.0,10.0,Restaurantes
+1,Belarus,Food,Combo meal in fast food restaurant (big mac meal or similar),18.0,5.48,Restaurantes
+2,Belarus,Food,500 gr (1 lb.) of boneless chicken breast,8.0,2.59,"Alimentos, bebidas y tabaco"
+3,Belarus,Food,1 liter (1 qt.) of whole fat milk,2.48,0.76,"Alimentos, bebidas y tabaco"
+4,Belarus,Food,"12 eggs, large",5.41,1.65,"Alimentos, bebidas y tabaco"
+5,Belarus,Food,1 kg (2 lb.) of tomatoes,9.0,2.9,"Alimentos, bebidas y tabaco"
+6,Belarus,Food,500 gr (16 oz.) of local cheese,13.0,3.87,"Alimentos, bebidas y tabaco"
+7,Belarus,Food,1 kg (2 lb.) of apples,5.34,1.63,"Alimentos, bebidas y tabaco"
+8,Belarus,Food,1 kg (2 lb.) of potatoes,1.86,0.57,"Alimentos, bebidas y tabaco"
+9,Belarus,Food,0.5 l (16 oz) domestic beer in the supermarket,2.54,0.77,"Alimentos, bebidas y tabaco"
+10,Belarus,Food,"1 bottle of red table wine, good quality",25.0,8.0,"Alimentos, bebidas y tabaco"
+11,Belarus,Food,2 liters of coca-cola,4.68,1.43,"Alimentos, bebidas y tabaco"
+12,Belarus,Food,Bread for 2 people for 1 day,1.19,0.36,"Alimentos, bebidas y tabaco"
+13,Belarus,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in expensive area,2333.0,713.0,Alquiler
+14,Belarus,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in normal area,1169.0,357.0,Alquiler
+15,Belarus,Housing,"Utilities 1 month (heating, electricity, gas ...) for 2 people in 85m2 flat",125.0,38.0,Servicios públicos
+16,Belarus,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in expensive area,1532.0,468.0,Alquiler
+17,Belarus,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in normal area,1200.0,367.0,Alquiler
+18,Belarus,Housing,"Utilities 1 month (heating, electricity, gas ...) for 1 person in 45 m2 (480 sqft) studio",80.0,24.0,Servicios públicos
+19,Belarus,Housing,Internet 8 mbps (1 month),23.0,7.0,Comunicaciones
+20,Belarus,Housing,40” flat screen tv,1482.0,453.0,Electrodomésticos
+21,Belarus,Housing,"Microwave 800/900 watt (bosch, panasonic, lg, sharp, or equivalent brands)",439.0,134.0,Electrodomésticos
+22,Belarus,Housing,Laundry detergent (3 l. ~ 100 oz.),20.0,6.0,Cuidado personal
+23,Belarus,Housing,Hourly rate for cleaning help,40.0,12.0,Tarifa horaria trabajo doméstico
+24,Belarus,Clothes,1 pair of jeans (levis 501 or similar),189.0,58.0,Ropa y calzado
+25,Belarus,Clothes,"1 summer dress in a high street store (zara, h&m or similar retailers)",125.0,38.0,Ropa y calzado
+26,Belarus,Clothes,"1 pair of sport shoes (nike, adidas, or equivalent brands)",266.0,81.0,Ropa y calzado
+27,Belarus,Clothes,1 pair of men’s leather business shoes,263.0,80.0,Ropa y calzado
+28,Belarus,Transportation,"Volkswagen golf 1.4 tsi 150 cv (or equivalent), with no extras, new",25000.0,7637.0,Vehículos
+29,Belarus,Transportation,1 liter (1/4 gallon) of gas,2.37,0.72,Nafta
+30,Belarus,Transportation,Monthly ticket public transport,41.0,13.0,Transporte
+31,Belarus,Personal Care,"Cold medicine for 6 days (tylenol, frenadol, coldrex, or equivalent brands)",24.0,7.0,Cuidado personal
+32,Belarus,Personal Care,1 box of antibiotics (12 doses),33.0,10.0,Cuidado personal
+33,Belarus,Personal Care,Short visit to private doctor (15 minutes),38.0,12.0,Cuidado personal
+34,Belarus,Personal Care,"1 box of 32 tampons (tampax, ob, ...)",20.0,6.0,Cuidado personal
+35,Belarus,Personal Care,"Deodorant, roll-on (50ml ~ 1.5 oz.)",16.0,4.8,Cuidado personal
+36,Belarus,Personal Care,Hair shampoo 2-in-1 (400 ml ~ 12 oz.),10.0,3.04,Cuidado personal
+37,Belarus,Personal Care,4 rolls of toilet paper,3.77,1.15,Cuidado personal
+38,Belarus,Personal Care,Tube of toothpaste,8.0,2.36,Cuidado personal
+39,Belarus,Personal Care,Standard men's haircut in expat area of the city,20.0,6.0,Cuidado personal
+40,Belarus,Entertainment,Basic dinner out for two in neighborhood pub,40.0,12.0,Restaurantes
+41,Belarus,Entertainment,2 tickets to the movies,26.0,8.0,Ocio
+42,Belarus,Entertainment,2 tickets to the theater (best available seats),50.0,15.0,Ocio
+43,Belarus,Entertainment,"Dinner for two at an italian restaurant in the expat area including appetisers, main course, wine and dessert",153.0,47.0,Restaurantes
+44,Belarus,Entertainment,1 cocktail drink in downtown club,23.0,7.0,Restaurantes
+45,Belarus,Entertainment,Cappuccino in expat area of the city,8.0,2.34,Restaurantes
+46,Belarus,Entertainment,1 beer in neighbourhood pub (500ml or 1pt.),10.0,3.05,Restaurantes
+47,Belarus,Entertainment,Ipad wi-fi 128gb,1254.0,383.0,Comunicaciones
+48,Belarus,Entertainment,1 min. of prepaid mobile tariff (no discounts or plans),0.84,0.26,Comunicaciones
+49,Belarus,Entertainment,1 month of gym membership in business district,60.0,18.0,Ocio
+50,Belarus,Entertainment,1 package of marlboro cigarettes,5.76,1.76,"Alimentos, bebidas y tabaco"
+0,Belgium,Food,Basic lunchtime menu (including a drink) in the business district,20.0,22.0,Restaurantes
+1,Belgium,Food,Combo meal in fast food restaurant (big mac meal or similar),10.0,11.0,Restaurantes
+2,Belgium,Food,500 gr (1 lb.) of boneless chicken breast,5.82,6.0,"Alimentos, bebidas y tabaco"
+3,Belgium,Food,1 liter (1 qt.) of whole fat milk,1.41,1.54,"Alimentos, bebidas y tabaco"
+4,Belgium,Food,"12 eggs, large",3.93,4.3,"Alimentos, bebidas y tabaco"
+5,Belgium,Food,1 kg (2 lb.) of tomatoes,3.07,3.35,"Alimentos, bebidas y tabaco"
+6,Belgium,Food,500 gr (16 oz.) of local cheese,8.0,8.0,"Alimentos, bebidas y tabaco"
+7,Belgium,Food,1 kg (2 lb.) of apples,2.56,2.8,"Alimentos, bebidas y tabaco"
+8,Belgium,Food,1 kg (2 lb.) of potatoes,1.91,2.09,"Alimentos, bebidas y tabaco"
+9,Belgium,Food,0.5 l (16 oz) domestic beer in the supermarket,2.17,2.37,"Alimentos, bebidas y tabaco"
+10,Belgium,Food,"1 bottle of red table wine, good quality",8.0,8.0,"Alimentos, bebidas y tabaco"
+11,Belgium,Food,2 liters of coca-cola,2.78,3.03,"Alimentos, bebidas y tabaco"
+12,Belgium,Food,Bread for 2 people for 1 day,2.07,2.26,"Alimentos, bebidas y tabaco"
+13,Belgium,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in expensive area,1484.0,1621.0,Alquiler
+14,Belgium,Housing,Monthly rent for 85 m2 (900 sqft) furnished accommodation in normal area,1297.0,1417.0,Alquiler
+15,Belgium,Housing,"Utilities 1 month (heating, electricity, gas ...) for 2 people in 85m2 flat",285.0,312.0,Servicios públicos
+16,Belgium,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in expensive area,942.0,1029.0,Alquiler
+17,Belgium,Housing,Monthly rent for a 45 m2 (480 sqft) furnished studio in normal area,800.0,874.0,Alquiler
+18,Belgium,Housing,"Utilities 1 month (heating, electricity, gas ...) for 1 person in 45 m2 (480 sqft) studio",196.0,214.0,Servicios públicos
+19,Belgium,Housing,Internet 8 mbps (1 month),50.0,55.0,Comunicaciones
+20,Belgium,Housing,40” flat screen tv,323.0,353.0,Electrodomésticos
+21,Belgium,Housing,"Microwave 800/900 watt (bosch, panasonic, lg, sharp, or equivalent brands)",120.0,131.0,Electrodomésticos
+22,Belgium,Housing,Laundry detergent (3 l. ~ 100 oz.),25.0,28.0,Cuidado personal
+23,Belgium,Housing,Hourly rate for cleaning help,12.0,13.0,Tarifa horaria trabajo doméstico
+24,Belgium,Clothes,1 pair of jeans (levis 501 or similar),93.0,101.0,Ropa y calzado
+25,Belgium,Clothes,"1 summer dress in a high street store (zara, h&m or similar retailers)",42.0,46.0,Ropa y calzado
+26,Belgium,Clothes,"1 pair of sport shoes (nike, adidas, or equivalent brands)",99.0,109.0,Ropa y calzado
+27,Belgium,Clothes,1 pair of men’s leather business shoes,129.0,141.0,Ropa y calzado
+28,Belgium,Transportation,"Volkswagen golf 1.4 tsi 150 cv (or equivalent), with no extras, new",31127.0,34006.0,Vehículos
+29,Belgium,Transportation,1 liter (1/4 gallon) of gas,1.72,1.88,Nafta
+30,Belgium,Transportation,Monthly ticket public transport,50.0,55.0,Transporte
+31,Belgium,Personal Care,"Cold medicine for 6 days (tylenol, frenadol, coldrex, or equivalent brands)",12.0,13.0,Cuidado personal
+32,Belgium,Personal Care,1 box of antibiotics (12 doses),10.0,11.0,Cuidado personal
+33,Belgium,Personal Care,Short visit to private doctor (15 minutes),32.0,35.0,Cuidado personal
+34,Belgium,Personal Care,"1 box of 32 tampons (tampax, ob, ...)",5.29,5.77,Cuidado personal
+35,Belgium,Personal Care,"Deodorant, roll-on (50ml ~ 1.5 oz.)",5.14,5.61,Cuidado personal
+36,Belgium,Personal Care,Hair shampoo 2-in-1 (400 ml ~ 12 oz.),4.92,5.37,Cuidado personal
+37,Belgium,Personal Care,4 rolls of toilet paper,2.08,2.27,Cuidado personal
+38,Belgium,Personal Care,Tube of toothpaste,4.0,4.37,Cuidado personal
+39,Belgium,Personal Care,Standard men's haircut in expat area of the city,27.0,29.0,Cuidado personal
+40,Belgium,Entertainment,Basic dinner out for two in neighborhood pub,42.0,46.0,Restaurantes
+41,Belgium,Entertainment,2 tickets to the movies,26.0,29.0,Ocio
+42,Belgium,Entertainment,2 tickets to the theater (best available seats),90.0,98.0,Ocio
+43,Belgium,Entertainment,"Dinner for two at an italian restaurant in the expat area including appetisers, main course, wine and dessert",94.0,103.0,Restaurantes
+44,Belgium,Entertainment,1 cocktail drink in downtown club,12.0,13.0,Restaurantes
+45,Belgium,Entertainment,Cappuccino in expat area of the city,3.76,4.11,Restaurantes
+46,Belgium,Entertainment,1 beer in neighbourhood pub (500ml or 1pt.),5.02,5.49,Restaurantes
+47,Belgium,Entertainment,Ipad wi-fi 128gb,561.0,612.0,Comunicaciones
+48,Belgium,Entertainment,1 min. of prepaid mobile tariff (no discounts or plans),0.25,0.27,Comunicaciones
+49,Belgium,Entertainment,1 month of gym membership in business district,31.0,34.0,Ocio
+50,Belgium,Entertainment,1 package of marlboro cigarettes,8.0,9.0,"Alimentos, bebidas y tabaco"
