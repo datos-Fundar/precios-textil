@@ -6,13 +6,13 @@ import numpy as np
 from typing import Literal
 import json
 
-with open('item2category_expatistan.json','r') as f:
+with open('./auxiliar/item2category_expatistan.json','r') as f:
     item2category = json.load(f)
 
-with open('countries_expatistan.json','r') as f:
+with open('./auxiliar/countries_expatistan.json','r') as f:
     countries = pd.Series(json.load(f), name='name')
 
-with open('item2custom_category.json','r') as f:
+with open('./auxiliar/item2custom_category.json','r') as f:
     item2custom_category = json.load(f)
 
 item2custom_category = {item['item_names']: item['categoria_propia'] for item in item2custom_category}
@@ -151,4 +151,4 @@ def get_expatistan_data(country_list:list[str], cat_prop:bool = False, mapper:di
     return data
 
 def export_to_csv(df:pd.DataFrame, path:str)->None:
-    df.to_csv(path)
+    df.to_csv(path, index=False)
