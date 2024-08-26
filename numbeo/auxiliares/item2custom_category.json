@@ -1,0 +1,214 @@
+[
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Apples(1kg)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Banana(1kg)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Beef Round(1kg)(or Equivalent Back Leg Red Meat)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Bottle of Wine(Mid-Range)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Cappuccino(regular)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Chicken Fillets(1kg)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Cigarettes 20 Pack(Marlboro)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Domestic Beer - Market (0.5 liter bottle)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Eggs(regular)-12"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Imported Beer - Market (0.33 liter bottle)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Lettuce(1 head)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Loaf of Fresh White Bread(500g)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Local Cheese(1kg)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Milk(regular),(1 liter)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Onion(1kg)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Oranges(1kg)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Potato(1kg)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Rice(white),(1kg)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Tomato(1kg)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Water(1.5 liter bottle)"
+  },
+  {
+      "categoria_propia": "Alquiler",
+      "item_names": "Apartment(1 bedroom)in City Centre"
+  },
+  {
+      "categoria_propia": "Alquiler",
+      "item_names": "Apartment(1 bedroom)Outside of Centre"
+  },
+  {
+      "categoria_propia": "Alquiler",
+      "item_names": "Apartment(3 bedrooms)in City Centre"
+  },
+  {
+      "categoria_propia": "Alquiler",
+      "item_names": "Apartment(3 bedrooms)Outside of Centre"
+  },
+  {
+      "categoria_propia": "Comunicaciones",
+      "item_names": "Internet(60 Mbps or More, Unlimited Data, Cable/ADSL)"
+  },
+  {
+      "categoria_propia": "Comunicaciones",
+      "item_names": "Mobile Phone Monthly Plan with Calls and 10GB+ Data"
+  },
+  {
+      "categoria_propia": "Enseñanza privada",
+      "item_names": "International Primary School, Yearly for 1 Child"
+  },
+  {
+      "categoria_propia": "Enseñanza privada",
+      "item_names": "Preschool(or Kindergarten), Full Day, Private, Monthly for 1 Child"
+  },
+  {
+      "categoria_propia": "Nafta",
+      "item_names": "Gasoline(1 liter)"
+  },
+  {
+      "categoria_propia": "Ocio",
+      "item_names": "Cinema, International Release, 1 Seat"
+  },
+  {
+      "categoria_propia": "Ocio",
+      "item_names": "Fitness Club, Monthly Fee for 1 Adult"
+  },
+  {
+      "categoria_propia": "Ocio",
+      "item_names": "Tennis Court Rent(1 Hour on Weekend)"
+  },
+  {
+      "categoria_propia": "Precio metro cuadrado",
+      "item_names": "Price per Square Meterto Buy Apartmentin City Centre"
+  },
+  {
+      "categoria_propia": "Precio metro cuadrado",
+      "item_names": "Price per Square Meterto Buy ApartmentOutside of Centre"
+  },
+  {
+      "categoria_propia": "Restaurantes",
+      "item_names": "Coke/Pepsi(0.33 liter bottle)"
+  },
+  {
+      "categoria_propia": "Restaurantes",
+      "item_names": "Domestic Beer - Restaurants (0.5 liter draught)"
+  },
+  {
+      "categoria_propia": "Restaurantes",
+      "item_names": "Imported Beer - Restaurants (0.33 liter bottle)"
+  },
+  {
+      "categoria_propia": "Restaurantes",
+      "item_names": "McMeal at McDonalds(or Equivalent Combo Meal)"
+  },
+  {
+      "categoria_propia": "Restaurantes",
+      "item_names": "Meal for 2 People,Mid-range Restaurant, Three-course"
+  },
+  {
+      "categoria_propia": "Restaurantes",
+      "item_names": "Meal, Inexpensive Restaurant"
+  },
+  {
+      "categoria_propia": "Restaurantes",
+      "item_names": "Water(0.33 liter bottle)"
+  },
+  {
+      "categoria_propia": "Ropa y calzado",
+      "item_names": "1 Pair of Jeans(Levis 501 Or Similar)"
+  },
+  {
+      "categoria_propia": "Ropa y calzado",
+      "item_names": "1 Pair of Men Leather Business Shoes"
+  },
+  {
+      "categoria_propia": "Ropa y calzado",
+      "item_names": "1 Pair of Nike Running Shoes(Mid-Range)"
+  },
+  {
+      "categoria_propia": "Ropa y calzado",
+      "item_names": "1 Summer Dress in a Chain Store(Zara, H&M, ...)"
+  },
+  {
+      "categoria_propia": "Transporte",
+      "item_names": "Monthly Pass(Regular Price)"
+  },
+  {
+      "categoria_propia": "Transporte",
+      "item_names": "One-way Ticket(Local Transport)"
+  },
+  {
+      "categoria_propia": "Transporte",
+      "item_names": "Taxi 1hour Waiting(Normal Tariff)"
+  },
+  {
+      "categoria_propia": "Transporte",
+      "item_names": "Taxi 1km(Normal Tariff)"
+  },
+  {
+      "categoria_propia": "Transporte",
+      "item_names": "Taxi Start(Normal Tariff)"
+  },
+  {
+      "categoria_propia": "Servicios de la vivienda",
+      "item_names": "Basic(Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment"
+  },
+  {
+      "categoria_propia": "Vehículos",
+      "item_names": "Toyota Corolla Sedan 1.6l 97kW Comfort(Or Equivalent New Car)"
+  },
+  {
+      "categoria_propia": "Vehículos",
+      "item_names": "Volkswagen Golf1.4 90 KW Trendline(Or Equivalent New Car)"
+  }
+]

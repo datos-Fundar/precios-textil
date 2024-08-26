@@ -18,7 +18,7 @@ class Parser(argparse.ArgumentParser):
         super(Parser, self).__init__(description='Expatistan CLI')
 
         self.add_argument('-o', '--output_folder', type=str, help='Ruta de la carpeta en la que se exportará el archivo (default "./salidas/")')
-        self.add_argument('-c','--cat_prop', type=bool, nargs='?', const=False, help='Si es True se agrega columna con `categoria propia` y además se genera procesamiento (default False)')
+        self.add_argument('-p','--process', type=bool, nargs='?', const=False, help='Si es True se agrega columna con `categoria propia` y además se genera procesamiento (default False)')
        
         # Argumento de debug para poder testear los argumentos.
         # Si está, no se ejecuta el programa.
@@ -41,28 +41,29 @@ if __name__ == '__main__':
         exit(1)
 
     out_folder = args.get('out_folder', None)
-    cat_prop = args.get('cat_prop', False)
-    process_output = args.get('process_output', False)
+    process_output = args.get('process', False)
+
+    if process_output:
+        cat_prop_str = "_cat_prop"
+        cat_prop = True
     
     expatistan_df = get_expatistan_data(country_list=countries.to_list(), cat_prop = cat_prop, mapper = item2custom_category)
 
     cat_prop_str = ""
     
     today = datetime.today().strftime('%Y%m%d')
+    
     if out_folder is None:
         print("No se especificó ninguna carpeta, default --> './exports/'")
         out_folder = "./salidas"
         Path(out_folder).mkdir(parents=True, exist_ok=True)
 
-    if cat_prop:
-        cat_prop_str = "_cat_prop" 
-    
-    out_path = f"{out_folder}/expatistan{cat_prop_str}_{today}.csv"
+    out_path = f"{out_folder}/scraping_expatistan{cat_prop_str}_{today}.csv"
 
     export_to_csv(df=expatistan_df, path=out_path)
     print(f"Scraping exportado a: {out_path}")
-    
-    if cat_prop:
+
+    if process_output:
 
         out_path_p = f"{out_folder}/precios_relativos_expatistan_{today}.xlsx"
         
