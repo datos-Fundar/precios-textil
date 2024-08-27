@@ -12,14 +12,39 @@ def export_to_csv(df:pd.DataFrame, path:str)->None:
 def export_to_xlsx(df:pd.DataFrame, path:str)->None:
     df.to_excel(path, index=False)
 
-
+def str_to_bool(value):
+    if isinstance(value, bool):
+        return value
+    if value.lower() in {'true', 't', 'yes', 'y', '1'}:
+        return True
+    elif value.lower() in {'false', 'f', 'no', 'n', '0'}:
+        return False
+    else:
+        raise argparse.ArgumentTypeError('Boolean value expected (True/False).')
+    
 class Parser(argparse.ArgumentParser):
     
     def __init__(self):
         super(Parser, self).__init__(description='Expatistan CLI')
 
-        self.add_argument('-o', '--output_folder', type=str, help='Ruta de la carpeta en la que se exportará el archivo (default "./salidas/")')
-        self.add_argument('-p','--process', type=bool, nargs='?', const=False, help='Si es True se agrega columna con `categoria propia` y además se genera procesamiento (default False)')
+        self.add_argument('-o', '--output_folder', 
+                          type=str, 
+                          help='Ruta de la carpeta en la que se exportará el archivo (default "./salidas/")'
+                          )
+        
+        self.add_argument('-c','--cat_prop', 
+                          type=str_to_bool, 
+                          choices=[True, False],
+                          default=False,
+                          help='Indica si se debe el archivo debe ser exportado con la categoria propia de agrupamiento de items (True/False, default "False").'
+                        )
+        
+        self.add_argument('-p','--process', 
+                          type=str_to_bool, 
+                          choices=[True, False],
+                          default=False,
+                          help='Indica si se debe procesar el archivo (True/False, default "False")'
+                        )
        
         # Argumento de debug para poder testear los argumentos.
         # Si está, no se ejecuta el programa.
@@ -36,27 +61,32 @@ if __name__ == '__main__':
     parser = Parser().parse_args()
     args = parser.args
 
+    print(args.values())
     if all(map(lambda x: x is None, args.values())):
         print('No se especificó ningún argumento')
         parser.print_help()
         exit(1)
 
     out_folder = args.get('out_folder', None)
-    process_output = args.get('process', False)
+    process_output = args.get('process')
+    cat_prop = args.get('cat_prop')
     
-    cat_prop = False
     cat_prop_str = ""
 
     if process_output:
         cat_prop = True
+
+    if cat_prop:
+        print("Se agregará el agrupamiento de items en la variable 'categoria_propia' en el dataset exportado")
         cat_prop_str = "_cat_prop"
+    
 
     numbeo_df = get_numbeo_data(cat_prop=cat_prop)
 
     today = datetime.today().strftime('%Y%m%d')
     if out_folder is None:
-        print("No se especificó ninguna carpeta, default --> './exports/'")
-        out_folder = "./exports"
+        print("No se especificó ninguna carpeta, default --> './salidas/'")
+        out_folder = "./salidas"
         Path(out_folder).mkdir(parents=True, exist_ok=True)
       
     out_path = f"{out_folder}/scraping_numbeo{cat_prop_str}_{today}.csv"

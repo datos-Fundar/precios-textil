@@ -134,10 +134,10 @@ def scraping_expatistan(country:str, language:Literal['es','en'] = 'es')->pd.Dat
     return df
 
 
-def get_expatistan_data(country_list:list[str], cat_prop:bool = False, mapper:dict = item2custom_category)->pd.DataFrame:
+def get_expatistan_data(country_list:list[str] = countries.to_list(), cat_prop:bool = False, mapper:dict = item2custom_category)->pd.DataFrame:
     data = pd.DataFrame()
     
-    for country in country_list:
+    for country in country_list[:10]:
         try: 
             df = scraping_expatistan(country=country, language='en')
             

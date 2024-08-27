@@ -48,19 +48,19 @@
       "item_names": "Bread for 2 people for 1 day"
     },
     {
-      "categoria_propia": "Alquiler",
+      "categoria_propia": "Alquiler de la vivienda",
       "item_names": "Monthly rent for 85 m2 (900 sqft) furnished accommodation in expensive area"
     },
     {
-      "categoria_propia": "Alquiler",
+      "categoria_propia": "Alquiler de la vivienda",
       "item_names": "Monthly rent for 85 m2 (900 sqft) furnished accommodation in normal area"
     },
     {
-      "categoria_propia": "Alquiler",
+      "categoria_propia": "Alquiler de la vivienda",
       "item_names": "Monthly rent for a 45 m2 (480 sqft) furnished studio in expensive area"
     },
     {
-      "categoria_propia": "Alquiler",
+      "categoria_propia": "Alquiler de la vivienda",
       "item_names": "Monthly rent for a 45 m2 (480 sqft) furnished studio in normal area"
     },
     {
@@ -184,19 +184,19 @@
       "item_names": "1 summer dress in a high street store (zara, h&m or similar retailers)"
     },
     {
-      "categoria_propia": "Servicios públicos",
+      "categoria_propia": "Servicios de la vivienda",
       "item_names": "Utilities 1 month (heating, electricity, gas ...) for 1 person in 45 m2 (480 sqft) studio"
     },
     {
-      "categoria_propia": "Servicios públicos",
+      "categoria_propia": "Servicios de la vivienda",
       "item_names": "Utilities 1 month (heating, electricity, gas ...) for 2 people in 85m2 flat"
     },
     {
-      "categoria_propia": "Tarifa horaria trabajo doméstico",
+      "categoria_propia": "Tarifa horaria - Trabajo en casas particulares",
       "item_names": "Hourly rate for cleaning help"
     },
     {
-      "categoria_propia": "Transporte",
+      "categoria_propia": "Servicio de Transporte",
       "item_names": "Monthly ticket public transport"
     },
     {

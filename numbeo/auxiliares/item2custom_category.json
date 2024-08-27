@@ -9,6 +9,10 @@
   },
   {
       "categoria_propia": "Alimentos, bebidas y tabaco",
+      "item_names": "Eggs(regular)(12)"
+  },
+  {
+      "categoria_propia": "Alimentos, bebidas y tabaco",
       "item_names": "Beef Round(1kg)(or Equivalent Back Leg Red Meat)"
   },
   {
@@ -29,7 +33,7 @@
   },
   {
       "categoria_propia": "Alimentos, bebidas y tabaco",
-      "item_names": "Domestic Beer - Market (0.5 liter bottle)"
+      "item_names": "Domestic Beer(0.5 liter bottle)"
   },
   {
       "categoria_propia": "Alimentos, bebidas y tabaco",
@@ -37,7 +41,7 @@
   },
   {
       "categoria_propia": "Alimentos, bebidas y tabaco",
-      "item_names": "Imported Beer - Market (0.33 liter bottle)"
+      "item_names": "Market - Imported Beer(0.33 liter bottle)"
   },
   {
       "categoria_propia": "Alimentos, bebidas y tabaco",
@@ -80,19 +84,19 @@
       "item_names": "Water(1.5 liter bottle)"
   },
   {
-      "categoria_propia": "Alquiler",
+      "categoria_propia": "Alquiler de la vivienda",
       "item_names": "Apartment(1 bedroom)in City Centre"
   },
   {
-      "categoria_propia": "Alquiler",
+      "categoria_propia": "Alquiler de la vivienda",
       "item_names": "Apartment(1 bedroom)Outside of Centre"
   },
   {
-      "categoria_propia": "Alquiler",
+      "categoria_propia": "Alquiler de la vivienda",
       "item_names": "Apartment(3 bedrooms)in City Centre"
   },
   {
-      "categoria_propia": "Alquiler",
+      "categoria_propia": "Alquiler de la vivienda",
       "item_names": "Apartment(3 bedrooms)Outside of Centre"
   },
   {
@@ -141,11 +145,11 @@
   },
   {
       "categoria_propia": "Restaurantes",
-      "item_names": "Domestic Beer - Restaurants (0.5 liter draught)"
+      "item_names": "Domestic Beer(0.5 liter draught)"
   },
   {
       "categoria_propia": "Restaurantes",
-      "item_names": "Imported Beer - Restaurants (0.33 liter bottle)"
+      "item_names": "Restaurants - Imported Beer(0.33 liter bottle)"
   },
   {
       "categoria_propia": "Restaurantes",
@@ -180,23 +184,23 @@
       "item_names": "1 Summer Dress in a Chain Store(Zara, H&M, ...)"
   },
   {
-      "categoria_propia": "Transporte",
+      "categoria_propia": "Servicios de transporte",
       "item_names": "Monthly Pass(Regular Price)"
   },
   {
-      "categoria_propia": "Transporte",
+      "categoria_propia": "Servicios de transporte",
       "item_names": "One-way Ticket(Local Transport)"
   },
   {
-      "categoria_propia": "Transporte",
+      "categoria_propia": "Servicios de transporte",
       "item_names": "Taxi 1hour Waiting(Normal Tariff)"
   },
   {
-      "categoria_propia": "Transporte",
+      "categoria_propia": "Servicios de transporte",
       "item_names": "Taxi 1km(Normal Tariff)"
   },
   {
-      "categoria_propia": "Transporte",
+      "categoria_propia": "Servicios de transporte",
       "item_names": "Taxi Start(Normal Tariff)"
   },
   {

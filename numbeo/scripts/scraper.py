@@ -3,13 +3,10 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import json
 
-import os
-
-print(os.getcwd())
-
-
 with open('./auxiliares/item2custom_category.json','r') as f:
     item2custom_category = json.load(f)
+
+item2custom_category = {item['item_names']: item['categoria_propia'] for item in item2custom_category}
 
 def extract_numbeo_data()->pd.DataFrame:
     # URL de la página web
@@ -33,18 +30,30 @@ def extract_numbeo_data()->pd.DataFrame:
 
     data = pd.DataFrame(rows, columns=columns)
 
-    data = pd.melt(data, id_vars=["Rank", "Country"], var_name="item_names", value_name="item_prices_usd").rename({'Country':'country'}).drop(columns=['Rank'])
+    data = pd.melt(data, id_vars=["Rank", "Country"], var_name="item_names", value_name="item_prices_usd").rename(columns = {'Country':'country'}).drop(columns=['Rank'])
 
     data["item_prices_usd"] = pd.to_numeric(data["item_prices_usd"], errors='coerce')
 
     return data
 
+def reimputar_items_cerveza(_df:pd.DataFrame, item:str):
+    # Reeimputo strings de items
+    _df['es_max'] = _df.groupby(['country','item_names'])['item_prices_usd'].transform('max') == _df['item_prices_usd']
+    _df.loc[(_df.item_names==item) & (_df.es_max),"item_names"] = f"Restaurants - {item}"
+    _df.loc[(_df.item_names==item) & (~_df.es_max),"item_names"] = f"Market - {item}"
+    _df = _df.drop(columns='es_max') 
+    return _df
+
+
 def get_numbeo_data(cat_prop:bool = False, mapper:dict = item2custom_category): 
     df = extract_numbeo_data()
     
-    ## get numbeo agregarle el parser de las birras si son de alimentos y bebidos o de Restaurantes, en base al precio del producto.   
+    ## Reeimputo strings de items
+    df = reimputar_items_cerveza(_df=df, item='Imported Beer(0.33 liter bottle)')
+    df = reimputar_items_cerveza(_df=df, item='Imported Beer(0.5 liter bottle)')
     
     if cat_prop: 
         df['categoria_propia'] = df['item_names'].map(mapper)
+        return df.dropna(subset='categoria_propia')
     
     return df
