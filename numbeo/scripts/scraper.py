@@ -3,6 +3,26 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import json
 
+numbeo_countries = ['Switzerland', 'Denmark', 'United States', 'Belgium', 'Luxembourg',
+       'United Kingdom', 'Israel', 'Canada', 'Norway', 'Netherlands',
+       'Ireland', 'Australia', 'Greece', 'Uruguay', 'Cyprus', 'Austria',
+       'Italy', 'Malta', 'France', 'Finland', 'New Zealand', 'Germany',
+       'Spain', 'Estonia', 'Slovenia', 'Lithuania', 'Sweden', 'Singapore',
+       'Portugal', 'Latvia', 'Bulgaria', 'Croatia', 'Montenegro',
+       'Albania', 'Hungary', 'Armenia', 'Panama', 'Venezuela',
+       'Costa Rica', 'Romania', 'Mexico', 'Georgia', 'Kazakhstan',
+       'Hong Kong (China)', 'Azerbaijan', 'Poland', 'Slovakia',
+       'Czech Republic', 'Chile', 'Serbia', 'Qatar',
+       'United Arab Emirates', 'South Africa', 'Turkey', 'Belarus',
+       'Russia', 'Moldova', 'South Korea', 'Jordan', 'Argentina', 'Cuba',
+       'Palestine', 'Jamaica', 'Saudi Arabia', 'Japan', 'Kuwait',
+       'Mauritius', 'Ukraine', 'Brazil', 'Bosnia And Herzegovina',
+       'North Macedonia', 'Oman', 'Uzbekistan', 'Taiwan', 'Colombia',
+       'Iraq', 'Libya', 'Peru', 'Iran', 'Kenya', 'Egypt', 'Ecuador',
+       'Philippines', 'Morocco', 'China', 'Tunisia', 'Sri Lanka', 'India',
+       'Malaysia', 'Bolivia', 'Thailand', 'Algeria', 'Nigeria', 'Vietnam',
+       'Nepal', 'Indonesia', 'Bangladesh', 'Pakistan']
+
 with open('./auxiliares/item2custom_category.json','r') as f:
     item2custom_category = json.load(f)
 
@@ -46,7 +66,7 @@ def reimputar_items_cerveza(_df:pd.DataFrame, item:str):
 
 
 def get_numbeo_data(cat_prop:bool = False, mapper:dict = item2custom_category): 
-    df = extract_numbeo_data()
+    df = extract_numbeo_data().dropna(subset='item_prices_usd')
     
     ## Reeimputo strings de items
     df = reimputar_items_cerveza(_df=df, item='Imported Beer(0.33 liter bottle)')

@@ -55,5 +55,8 @@ def process_numbeo(input_df:pd.DataFrame)->pd.DataFrame:
     # Renombrar las columnas de resultados para que coincidan con los nombres de los países
     results.columns = ['categoria_propia'] + list(paises)
 
+    # Vuelvo a pivotear. 
+    results = results.melt(id_vars='categoria_propia', var_name='pais', value_name='precio_relativo')
+
     return results
 
