@@ -23,7 +23,7 @@ expatistan_countries = ['Albania', 'Algeria', 'Argentina', 'Armenia', 'Australia
                     'Venezuela', 'Vietnam']
 
 
-with open('./auxiliares/item2category_expatistan.json','r') as f:
+with open('./auxiliares/item2expatistan_category.json','r') as f:
     item2category = json.load(f)
 
 with open('./auxiliares/item2custom_category.json','r') as f:
