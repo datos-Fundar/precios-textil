@@ -6,11 +6,25 @@ import numpy as np
 from typing import Literal
 import json
 
+expatistan_countries = ['Albania', 'Algeria', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 
+                  'Bangladesh', 'Belarus', 'Belgium', 'Bolivia', 'Bosnia And Herzegovina', 'Brazil', 
+                  'Bulgaria', 'Canada', 'Chile', 'China', 'Colombia', 'Costa Rica', 'Croatia', 'Cyprus',
+                    'Czech Republic', 'Denmark', 'Dominican Republic', 'Ecuador', 'Egypt', 'Estonia', 
+                    'Finland', 'France', 'Georgia', 'Germany', 'Greece', 'Guatemala', 'Hong Kong', 
+                    'Hungary', 'India', 'Indonesia', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 
+                    'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kosovo', 'Kuwait', 'Latvia', 
+                    'Lithuania', 'Luxembourg', 'Malaysia', 'Malta', 'Mauritius', 'Mexico', 'Montenegro', 
+                    'Morocco', 'Nepal', 'Netherlands', 'New Zealand', 'Macedonia', 'Norway', 'Oman', 
+                    'Pakistan', 'Panama', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Puerto Rico', 
+                    'Qatar', 'Romania', 'Russia', 'Saudi Arabia', 'Serbia', 'Singapore', 'Slovakia', 
+                    'Slovenia', 'South Africa', 'South Korea', 'Spain', 'Sri Lanka', 'Sweden', 
+                    'Switzerland', 'Syria', 'Taiwan', 'Thailand', 'Tunisia', 'Turkey', 'Ukraine', 
+                    'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 
+                    'Venezuela', 'Vietnam']
+
+
 with open('./auxiliares/item2category_expatistan.json','r') as f:
     item2category = json.load(f)
-
-with open('./auxiliares/countries_expatistan.json','r') as f:
-    countries = pd.Series(json.load(f), name='name')
 
 with open('./auxiliares/item2custom_category.json','r') as f:
     item2custom_category = json.load(f)
@@ -134,10 +148,10 @@ def scraping_expatistan(country:str, language:Literal['es','en'] = 'es')->pd.Dat
     return df
 
 
-def get_expatistan_data(country_list:list[str] = countries.to_list(), cat_prop:bool = False, mapper:dict = item2custom_category)->pd.DataFrame:
+def get_expatistan_data(country_list:list[str] = expatistan_countries, cat_prop:bool = False, mapper:dict = item2custom_category)->pd.DataFrame:
     data = pd.DataFrame()
     
-    for country in country_list[:10]:
+    for country in country_list:
         try: 
             df = scraping_expatistan(country=country, language='en')
             

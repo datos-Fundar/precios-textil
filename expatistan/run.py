@@ -1,7 +1,8 @@
 import argparse
 import os
-from scripts.scraper import countries, item2custom_category, get_expatistan_data
+from scripts.scraper import get_expatistan_data, expatistan_countries
 from scripts.processing import process_expatistan
+from scripts.table_result import get_table_result
 from pathlib import Path
 from datetime import datetime
 import pandas as pd
@@ -20,7 +21,13 @@ def str_to_bool(value):
     elif value.lower() in {'false', 'f', 'no', 'n', '0'}:
         return False
     else:
-        raise argparse.ArgumentTypeError('Boolean value expected (True/False).')
+        raise argparse.ArgumentTypeError('Se espera un booleano (True/False).')
+    
+def is_valid_country(value):
+    if value in expatistan_countries:
+        return value
+    else:
+        raise argparse.ArgumentTypeError('Se expera un país válido de Expatistan')
     
 class Parser(argparse.ArgumentParser):
     
@@ -32,7 +39,7 @@ class Parser(argparse.ArgumentParser):
                           help='Ruta de la carpeta en la que se exportará el archivo (default "./salidas/")'
                           )
         
-        self.add_argument('-p','--cat_prop', 
+        self.add_argument('-c','--cat_prop', 
                           type=str_to_bool, 
                           choices=[True, False],
                           default=False,
@@ -44,6 +51,12 @@ class Parser(argparse.ArgumentParser):
                           choices=[True, False],
                           default=False,
                           help='Indica si se debe procesar el archivo (True/False, default "False")'
+                        )
+        
+        self.add_argument('-r','--table_result', 
+                          type=is_valid_country, 
+                          choices=expatistan_countries,
+                          help='Indica el país que debería tomarse para generar la tabla de resultados'
                         )
          
             
@@ -62,7 +75,6 @@ if __name__ == '__main__':
     parser = Parser().parse_args()
     args = parser.args
 
-    print(args.values())
     if all(map(lambda x: x is None, args.values())):
         print('No se especificó ningún argumento')
         parser.print_help()
@@ -71,8 +83,12 @@ if __name__ == '__main__':
     out_folder = args.get('out_folder', None)
     process_output = args.get('process')
     cat_prop = args.get('cat_prop')
+    result_pais = args.get('table_result')
     
     cat_prop_str = ""
+
+    if result_pais: 
+        process_output = True
 
     if process_output:
         cat_prop = True
@@ -99,11 +115,21 @@ if __name__ == '__main__':
 
     if process_output:
 
-        out_path_p = f"{out_folder}/precios_relativos_expatistan_{today}.xlsx"
+        out_path_p = f"{out_folder}/precios_relativos_expatistan_{today}.csv"
         
         precios_relativos_df = process_expatistan(input_df=expatistan_df)
         
-        export_to_xlsx(df=precios_relativos_df, path=out_path_p)
+        export_to_csv(df=precios_relativos_df, path=out_path_p)
         print(f"Precios relativos exportado a: {out_path_p}")
+
+
+    if result_pais:
+
+        out_path_r = f"{out_folder}/tabla_resultados_expatistan_{today}.csv"
+
+        result_df = get_table_result(input_df=precios_relativos_df, pais=result_pais)
+        
+        export_to_csv(df=result_df, path=out_path_r)
+        print(f"Precios relativos exportado a: {out_path_r}")
 
 
