@@ -31,10 +31,6 @@ def process_numbeo(input_df:pd.DataFrame)->pd.DataFrame:
         # Dividir cada columna por la columna del país seleccionado
         datos_no_p = datos_no_p.div(lista_precios, axis=0)
         
-        # # Filtrar las filas que son completamente NaN
-        # datos_no_p_filtered = datos_no_p.dropna(how='all')
-        
-        # if not datos_no_p_filtered.empty:
         # Calcular la mediana de cada fila filtrada, ignorando NaNs
         medianas = np.nanmedian(datos_no_p, axis=1)
         # else:

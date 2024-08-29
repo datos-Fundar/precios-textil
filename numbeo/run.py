@@ -106,7 +106,7 @@ if __name__ == '__main__':
         out_folder = "./salidas"
         Path(out_folder).mkdir(parents=True, exist_ok=True)
       
-    out_path = f"{out_folder}/scraping_numbeo{cat_prop_str}_{today}.csv"
+    out_path = f"{out_folder}/datos_numbeo{cat_prop_str}_{today}.csv"
 
     export_to_csv(df=numbeo_df, path=out_path)
 

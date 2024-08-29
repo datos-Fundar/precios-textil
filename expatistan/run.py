@@ -108,7 +108,7 @@ if __name__ == '__main__':
         out_folder = "./salidas"
         Path(out_folder).mkdir(parents=True, exist_ok=True)
 
-    out_path = f"{out_folder}/scraping_expatistan{cat_prop_str}_{today}.csv"
+    out_path = f"{out_folder}/datos_expatistan{cat_prop_str}_{today}.csv"
 
     export_to_csv(df=expatistan_df, path=out_path)
     print(f"Scraping exportado a: {out_path}")

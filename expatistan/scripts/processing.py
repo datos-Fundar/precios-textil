@@ -25,21 +25,17 @@ def process_expatistan(input_df:pd.DataFrame)->pd.DataFrame:
     for p in paises:
         
         x = datos_paises[~datos_paises[p].isna()]
+
+        # Tomo la lista de precios del país p. 
         lista_precios = x[p]
         datos_no_p = x.drop(columns=[p])
         
-        # Dividir cada columna por la columna del país seleccionado
+        # Obtengo la relación entre los precios de cada país no p con los precios de p 
         datos_no_p = datos_no_p.div(lista_precios, axis=0)
         
-        # # Filtrar las filas que son completamente NaN
-        # datos_no_p_filtered = datos_no_p.dropna(how='all')
+        # Calcular la mediana de esa relación. 
+        medianas = np.nanmedian(datos_no_p, axis=1) # mediana del cociente 
         
-        # if not datos_no_p_filtered.empty:
-        # Calcular la mediana de cada fila filtrada, ignorando NaNs
-        medianas = np.nanmedian(datos_no_p, axis=1)
-        # else:
-        #     # Si todas las filas son NaN, generar un array vacío para evitar el warning
-        #     medianas = np.array([])
 
         # Agrupar por categoría y calcular la media de las medianas
         result = pd.DataFrame({
@@ -47,6 +43,7 @@ def process_expatistan(input_df:pd.DataFrame)->pd.DataFrame:
             'medianas': medianas
         })
 
+        # Obtengo la media de las medianas por categoria. 
         result = result.groupby('categoria_propia').agg(media_mediana=('medianas', 'mean')).reset_index()
         
         # Combinar los resultados con el DataFrame principal
