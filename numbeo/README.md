@@ -19,7 +19,7 @@ En este carpeta del repositorio se comparten los datos extraídos y procesados d
 La base de datos contiene información de precios de 50 productos para un total de 98 países, los cuales son reportados por Numbeo. Este sitio se nutre de información proporcionada voluntariamente por usuarios particulares, lo que significa que no es una fuente de información elaborada por un organismo multilateral ni por institutos de estadísticas oficiales de los países. Sin embargo, representa una fuente de información complementaria y adicional que permite conocer detalles como cuánto cuesta la misma comida en un restaurante de comida rápida o una misma prenda de vestir en 98 países del mundo, incluida Argentina. 
 
 - Base de datos: 
-  - formato [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/numbeo/datos-procesamiento/datos_numbeo_cat_prop_20240516.csv)
+  - formato [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/numbeo/output/datos_numbeo_cat_prop_20240516.csv)
   
 
 ## Base de datos de precios relativos por rubro y país
@@ -27,7 +27,7 @@ La base de datos contiene información de precios de 50 productos para un total 
 La base de datos de precios relativos por rubro y país es un post-procesamiento de los datos disponibilizados en la base de datos anteriormente mencionada. El procedimiento utilizado permite ver la estructura de precios relativos de distintos bienes y servicios de un país comparado contra el resto de la muestra de países. La metodología utilizada puede ser consultada en el libro códigos. 
 
 - Base de datos: 
-  - formato [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/numbeo/datos-procesamiento/precios_relativos_numbeo_20240516.csv)
+  - formato [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/numbeo/output/precios_relativos_numbeo_20240516.csv)
     
 
 ## Tabla de resultados
@@ -36,7 +36,7 @@ La tabla de resultados es un post-procesamiento de los datos disponibilizados en
 
 
 - Base de datos: 
-  - formato [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/numbeo/salidas/tabla_resultados_numbeo_20240516.csv)
+  - formato [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/numbeo/output/tabla_resultados_numbeo_20240516.csv)
 
 
 ---
