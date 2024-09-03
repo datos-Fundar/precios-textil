@@ -4,5 +4,7 @@ __pycache__/
 *.ipynb
 .vscode/
 .env
+base_final.csv
+base_unificada.csv
 *tor.py
 *scraper.py
