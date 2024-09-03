@@ -1,37 +1,15 @@
 # Análisis precios relativos fuentes alternativas: Expatistan
 
-
-[![DOI](https://zenodo.org/badge/833154715.svg)](https://zenodo.org/doi/10.5281/zenodo.12827870)
-
-
-
-En este carpeta del repositorio se comparten los datos extraídos y procesados del website [Expatistan](https://www.expatistan.com/cost-of-living) utilizados en el Documento **poner el titulo del documento** [^1] junto con el código utilizado para los análisis del documento. Se comparte también el [Libro de códigos](https://github.com/datos-Fundar/encuesta-economia-popular/blob/main/Eco_Pop_Libro-Codigo.pdf) de las bases de datos. El conjunto de recursos disponibilizados se compone de tres datasets: 
+En este carpeta del repositorio se comparten los datos extraídos y procesados del website [Expatistan](https://www.expatistan.com/cost-of-living) utilizados en el Documento **Los precios de la ropa en Argentina** [^1] junto con el código utilizado para los análisis del documento. Se comparte también el [Libro de códigos](https://github.com/datos-Fundar/encuesta-economia-popular/blob/main/Eco_Pop_Libro-Codigo.pdf) de las bases de datos. El conjunto de recursos disponibilizados se compone de tres datasets: 
 
 * Base de datos precios relevados por producto y país de Expatistan
 * Base de datos de precios relativos por rubro y país
 * Tabla de resultados
  
 
-[^1]: [Schteingart, D.; Schuffer, N.; Ludmer, G.; Isaak, P. (2024) Precios Textiles. Fundar](https://fund.ar/publicacion/la-industria-textil-indumentaria-en-sudamerica/)
-
----
-**Cita Sugerida:** 
-
-Schteingart, Daniel; Schuffer, Nadia; Ludmer, Gustavo; Isaak, Paula (2024). Bases de datos de precios relevados por productos y país. Fundar.
-
-```bibtex
+[^1]: [Schteingart, D.; Schuffer, N.; Ludmer, G.; Sidicaro, N.; Ibarra, I. (2024) Los precios de la ropa en Argentina. Fundar](https://fund.ar/publicacion/los-precios-de-la-ropa-en-la-argentina/)
 
 
-@report{precios_textil_expatistan_2024base,
-  author    = {Schteingart, Daniel; Schuffer, Nadia; Ludmer, Gustavo; Isaak, Paula},
-  title     = {Bases de datos de precios relevados por productos y país},
-  year      = {2024},
-  institution = {Fundar},
-  type      = {Document}
-}
-
-```
----
 
 ## Base de datos precios relevados por producto y país de Expatistan
 
