@@ -36,7 +36,7 @@ class Parser(argparse.ArgumentParser):
 
         self.add_argument('-o', '--output_folder', 
                           type=str, 
-                          help='Ruta de la carpeta en la que se exportará el archivo (default "./salidas/")'
+                          help='Ruta de la carpeta en la que se exportará el archivo (default "./output/")'
                           )
         
         self.add_argument('-c','--cat_prop', 
@@ -104,8 +104,8 @@ if __name__ == '__main__':
     today = datetime.today().strftime('%Y%m%d')
     
     if out_folder is None:
-        print("No se especificó ninguna carpeta, default --> './salidas/'")
-        out_folder = "./salidas"
+        print("No se especificó ninguna carpeta, default --> './output/'")
+        out_folder = "./output"
         Path(out_folder).mkdir(parents=True, exist_ok=True)
 
     out_path = f"{out_folder}/datos_expatistan{cat_prop_str}_{today}.csv"
