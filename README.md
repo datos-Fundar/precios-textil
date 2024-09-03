@@ -11,7 +11,7 @@ Como parte de la serie de documentos [La industria textil-indumentaria en la Arg
 
 La base de datos contiene información de precios de 53 productos textiles provenientes de publicaciones en MercadoLibre para un total de 7 países lationamericanos, complementando información de precios del rubro a la información tradicional. Permite conocer precios de manera detallada, como cuánto cuesta un producto similar en distintos países de América Latina.
 
-Tanto el código utilizado, los datos extraídos y los datos procesados se pueden encontrar [aquí](meli/Readme.md)
+Tanto el código utilizado, los datos extraídos y los datos procesados se pueden encontrar [aquí](meli/README.md)
 
 ## Expatistan
 
