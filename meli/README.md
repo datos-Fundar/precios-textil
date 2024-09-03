@@ -17,23 +17,6 @@ A su vez, se adiciona una carpeta con archivos auxiliares, de forma tal de garan
 [^1]: [Schteingart, D.; Ludmer, G.; Schuffer, N.; Sidicaro, N. (2024) Los precios de la ropa en la Argentina. Fundar](https://fund.ar/publicacion/la-industria-textil-indumentaria-en-sudamerica/)
 
 ---
-**Cita Sugerida:** 
-
-Schteingart, D.; Ludmer, G.; Schuffer, N.; Sidicaro, N. (2024). Bases de datos de precios de ropa relevados por productos y país. Fundar.
-
-```bibtex
-
-
-@report{precios_textil_numbeo_2024base,
-  author    = {Schteingart, Daniel; Schuffer, Nadia; Ludmer, Gustavo; Sidicaro, Nicolas},
-  title     = {Bases de datos de precios de ropa relevados por productos y país},
-  year      = {2024},
-  institution = {Fundar},
-  type      = {Document}
-}
-
-```
----
 
 ## Base de datos precios de ropa relevados por producto y país de MercadoLibre
 
