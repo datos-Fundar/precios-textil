@@ -1,11 +1,12 @@
 # Análisis precios relativos fuentes alternativas: Expatistan
 
-En este carpeta del repositorio se comparten los datos extraídos y procesados del website [Expatistan](https://www.expatistan.com/cost-of-living) utilizados en el Documento **Los precios de la ropa en Argentina** [^1] junto con el código utilizado para los análisis del documento. Se comparte también el [Libro de códigos](https://github.com/datos-Fundar/encuesta-economia-popular/blob/main/Eco_Pop_Libro-Codigo.pdf) de las bases de datos. El conjunto de recursos disponibilizados se compone de tres datasets: 
+En este carpeta del repositorio se comparten los datos extraídos y procesados del website [Expatistan](https://www.expatistan.com/cost-of-living) utilizados en el Documento **Los precios de la ropa en Argentina** [^1] junto con el código utilizado para los análisis del documento. Se comparte también el [Libro de códigos](Expatistan_Libro-Codigo.pdf) de las bases de datos. El conjunto de recursos disponibilizados se compone de tres datasets: 
 
 * Base de datos precios relevados por producto y país de Expatistan
 * Base de datos de precios relativos por rubro y país
 * Tabla de resultados
  
+A su vez, se adiciona una carpeta con archivos auxiliares, de forma tal de garantizar la replicabilidad de los procesamientos realizados. 
 
 [^1]: [Schteingart, D.; Schuffer, N.; Ludmer, G.; Sidicaro, N.; Ibarra, I. (2024) Los precios de la ropa en Argentina. Fundar](https://fund.ar/publicacion/los-precios-de-la-ropa-en-la-argentina/)
 

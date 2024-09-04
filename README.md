@@ -11,19 +11,19 @@ Como parte de la serie de documentos [La industria textil-indumentaria en la Arg
 
 La base de datos contiene información de precios de 53 productos textiles provenientes de publicaciones en MercadoLibre para un total de 7 países lationamericanos, complementando información de precios del rubro a la información tradicional. Permite conocer precios de manera detallada, como cuánto cuesta un producto similar en distintos países de América Latina.
 
-Tanto el código utilizado, los datos extraídos y los datos procesados se pueden encontrar [aquí](meli/README.md)
+Tanto el código utilizado, los datos extraídos y los datos procesados se pueden encontrar [aquí](meli)
 
 ## Expatistan
 
 La base de datos contiene información de precios de 50 productos de distintos rubros, proporcionada voluntariamente por usuarios particulares del sitio Expatistan, para un total de 98 países. Representa una fuente de información complementaria y adicional que permite conocer detalles como cuánto cuesta la misma comida en un restaurante de comida rápida o una misma prenda de vestir en 98 países del mundo, incluida Argentina. 
 
-Tanto el código utilizado, los datos extraídos y los datos procesados se pueden encontrar [aquí](expatistan/README.md)
+Tanto el código utilizado, los datos extraídos y los datos procesados se pueden encontrar [aquí](expatistan)
 
 ## Numbeo
 
 La base de datos contiene información de precios de 50 productos de distintos rubros, proporcionados por el usuarios del sitio Numbeo, para un total de 98 países . Algunos productos son distintos a los relevados por Expatistan, lo que amplía la muestra de precios en una gran cantidad de países. 
 
-Tanto el código utilizado, los datos extraídos y los datos procesados se pueden encontrar [aquí](numbeo/README.md)
+Tanto el código utilizado, los datos extraídos y los datos procesados se pueden encontrar [aquí](numbeo)
 
 
 [^1]: [Schteingart, D.; Schuffer, N.; Ludmer, G.; Sidicaro, N.; Ibarra, I. (2024) Los precios de la ropa en Argentina. Fundar](https://fund.ar/publicacion/los-precios-de-la-ropa-en-la-argentina/)
