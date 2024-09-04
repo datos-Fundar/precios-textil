@@ -1,11 +1,11 @@
-# Análisis precios relativos fuentes alternativas: Numbeo
+# Análisis precios relativos fuentes alternativas: MercadoLibre
 
 
 [![DOI](https://zenodo.org/badge/833154715.svg)](https://zenodo.org/doi/10.5281/zenodo.12827870)
 
 
 
-En este carpeta del repositorio se comparten los datos extraídos y procesados del website [MercadoLibre](https://mercadolibre.com/) utilizados en el Documento **poner el titulo del documento** [^1] junto con el código utilizado para los análisis del documento. Se comparte también el [Libro de códigos](https://github.com/datos-Fundar/encuesta-economia-popular/blob/main/Eco_Pop_Libro-Codigo.pdf) de las bases de datos. 
+En este carpeta del repositorio se comparten los datos extraídos y procesados del website [MercadoLibre](https://mercadolibre.com/) utilizados en el Documento **Los precios de la ropa en Argentina** [^1] junto con el código utilizado para los análisis del documento. Se comparte también el [Libro de códigos](Meli_Libro-Codigo.pdf) de las bases de datos. 
 
 El conjunto de recursos disponibilizados se compone de tres datasets: 
 
@@ -14,7 +14,7 @@ El conjunto de recursos disponibilizados se compone de tres datasets:
 
 A su vez, se adiciona una carpeta con archivos auxiliares, de forma tal de garantizar la replicabilidad de los procesamientos realizados. 
 
-[^1]: [Schteingart, D.; Ludmer, G.; Schuffer, N.; Sidicaro, N. (2024) Los precios de la ropa en la Argentina. Fundar](https://fund.ar/publicacion/la-industria-textil-indumentaria-en-sudamerica/)
+[^1]: [Schteingart, D.; Schuffer, N.; Ludmer, G.; Sidicaro, N.; Ibarra, I. (2024) Los precios de la ropa en Argentina. Fundar](https://fund.ar/publicacion/los-precios-de-la-ropa-en-la-argentina/)
 
 ---
 
