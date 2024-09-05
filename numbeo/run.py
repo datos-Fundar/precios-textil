@@ -1,11 +1,13 @@
 import argparse
 import os
-from scripts.scraper import get_numbeo_data, numbeo_countries
+from scripts.loader import get_data as get_numbeo_data
+from scripts.constants import numbeo_countries
 from scripts.processing import process_numbeo
 from scripts.table_result import get_table_result
 from pathlib import Path
 from datetime import datetime
 import pandas as pd
+
 
 def export_to_csv(df:pd.DataFrame, path:str)->None:
     df.to_csv(path, index=False)
@@ -23,29 +25,22 @@ def str_to_bool(value):
     else:
         raise argparse.ArgumentTypeError('Boolean value expected (True/False).')
 
-def is_valid_country(value):
-    if value in numbeo_countries:
+def is_valid_country(value, countries=numbeo_countries):
+    if value in countries:
         return value
     else:
-        raise argparse.ArgumentTypeError('Se expera un país válido de Numbeo')
+        raise argparse.ArgumentTypeError('Se expera un país válido')
 
 
 class Parser(argparse.ArgumentParser):
     
     def __init__(self):
-        super(Parser, self).__init__(description='Numbeo CLI')
+        super(Parser, self).__init__(description='Expatistan CLI')
 
         self.add_argument('-o', '--output_folder', 
                           type=str, 
                           help='Ruta de la carpeta en la que se exportará el archivo (default "./output/")'
                           )
-        
-        self.add_argument('-c','--cat_prop', 
-                          type=str_to_bool, 
-                          choices=[True, False],
-                          default=False,
-                          help='Indica si se debe el archivo debe ser exportado con la categoria propia de agrupamiento de items (True/False, default "False").'
-                        )
         
         self.add_argument('-p','--process', 
                           type=str_to_bool, 
@@ -53,13 +48,14 @@ class Parser(argparse.ArgumentParser):
                           default=False,
                           help='Indica si se debe procesar el archivo (True/False, default "False")'
                         )
-       
+        
         self.add_argument('-r','--table_result', 
                           type=is_valid_country, 
                           choices=numbeo_countries,
                           help='Indica el país que debería tomarse para generar la tabla de resultados'
                         )
-
+         
+            
         # Argumento de debug para poder testear los argumentos.
         # Si está, no se ejecuta el programa.
         self.add_argument('--testarguments', '--testarguments', type=bool, help=argparse.SUPPRESS)
@@ -82,10 +78,8 @@ if __name__ == '__main__':
 
     out_folder = args.get('out_folder', None)
     process_output = args.get('process')
-    cat_prop = args.get('cat_prop')
     result_pais = args.get('table_result')
     
-    cat_prop_str = ""
 
     if result_pais: 
         process_output = True
@@ -93,37 +87,28 @@ if __name__ == '__main__':
     if process_output:
         cat_prop = True
 
-    if cat_prop:
-        print("Se agregará el agrupamiento de items en la variable 'categoria_propia' en el dataset exportado")
-        cat_prop_str = "_cat_prop"
-    
-
-    numbeo_df = get_numbeo_data(cat_prop=cat_prop)
+    numbeo_df = get_numbeo_data(source='numbeo')
 
     today = datetime.today().strftime('%Y%m%d')
+    
     if out_folder is None:
         print("No se especificó ninguna carpeta, default --> './output/'")
         out_folder = "./output"
         Path(out_folder).mkdir(parents=True, exist_ok=True)
-      
-    out_path = f"{out_folder}/datos_numbeo{cat_prop_str}_{today}.csv"
-
-    export_to_csv(df=numbeo_df, path=out_path)
-
-    print(f"Scraping exportado a: {out_path}")
 
     if process_output:
 
-        out_path_p = f"{out_folder}/precios_relativos_numbeo_{today}.csv"
+        out_path_p = f"{out_folder}/precios_relativos_expatistan_{today}.csv"
         
         precios_relativos_df = process_numbeo(input_df=numbeo_df)
         
         export_to_csv(df=precios_relativos_df, path=out_path_p)
         print(f"Precios relativos exportado a: {out_path_p}")
 
+
     if result_pais:
 
-        out_path_r = f"{out_folder}/tabla_resultados_numbeo_{today}.csv"
+        out_path_r = f"{out_folder}/tabla_resultados_expatistan_{today}.csv"
 
         result_df = get_table_result(input_df=precios_relativos_df, pais=result_pais)
         

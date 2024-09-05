@@ -1,11 +1,12 @@
 import argparse
-import os
-from scripts.scraper import get_expatistan_data, expatistan_countries
+from scripts.loader import get_data as get_expatistan_data 
+from scripts.constants import expatistan_countries
 from scripts.processing import process_expatistan
 from scripts.table_result import get_table_result
 from pathlib import Path
 from datetime import datetime
 import pandas as pd
+
 
 def export_to_csv(df:pd.DataFrame, path:str)->None:
     df.to_csv(path, index=False)
@@ -23,11 +24,11 @@ def str_to_bool(value):
     else:
         raise argparse.ArgumentTypeError('Se espera un booleano (True/False).')
     
-def is_valid_country(value):
-    if value in expatistan_countries:
+def is_valid_country(value, countries=expatistan_countries):
+    if value in countries:
         return value
     else:
-        raise argparse.ArgumentTypeError('Se expera un país válido de Expatistan')
+        raise argparse.ArgumentTypeError('Se expera un país válido')
     
 class Parser(argparse.ArgumentParser):
     
@@ -38,13 +39,6 @@ class Parser(argparse.ArgumentParser):
                           type=str, 
                           help='Ruta de la carpeta en la que se exportará el archivo (default "./output/")'
                           )
-        
-        self.add_argument('-c','--cat_prop', 
-                          type=str_to_bool, 
-                          choices=[True, False],
-                          default=False,
-                          help='Indica si se debe el archivo debe ser exportado con la categoria propia de agrupamiento de items (True/False, default "False").'
-                        )
         
         self.add_argument('-p','--process', 
                           type=str_to_bool, 
@@ -82,10 +76,8 @@ if __name__ == '__main__':
 
     out_folder = args.get('out_folder', None)
     process_output = args.get('process')
-    cat_prop = args.get('cat_prop')
     result_pais = args.get('table_result')
     
-    cat_prop_str = ""
 
     if result_pais: 
         process_output = True
@@ -93,25 +85,14 @@ if __name__ == '__main__':
     if process_output:
         cat_prop = True
 
-    if cat_prop:
-        print("Se agregará el agrupamiento de items en la variable 'categoria_propia' en el dataset exportado")
-        cat_prop_str = "_cat_prop"
-    
-    expatistan_df = get_expatistan_data(cat_prop = cat_prop)
+    expatistan_df = get_expatistan_data(source='expatistan')
 
-    cat_prop_str = ""
-    
     today = datetime.today().strftime('%Y%m%d')
     
     if out_folder is None:
         print("No se especificó ninguna carpeta, default --> './output/'")
         out_folder = "./output"
         Path(out_folder).mkdir(parents=True, exist_ok=True)
-
-    out_path = f"{out_folder}/datos_expatistan{cat_prop_str}_{today}.csv"
-
-    export_to_csv(df=expatistan_df, path=out_path)
-    print(f"Scraping exportado a: {out_path}")
 
     if process_output:
 
