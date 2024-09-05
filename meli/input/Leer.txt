@@ -1,0 +1,2 @@
+En esta carpeta es necesario guardar la base final, en caso de descargarse desde el release.
+También es posible generarla, mediante el código disponibilizado en meli/scripts/01_base/base_final.R

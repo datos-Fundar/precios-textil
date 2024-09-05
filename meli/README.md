@@ -19,7 +19,7 @@ A su vez, se adiciona una carpeta con archivos auxiliares, de forma tal de garan
 
 La base de datos contiene información de precios de 53 productos para un total de 7 países provenientes de publicaciones en MercadoLibre, lo que significa que no es una fuente de información elaborada por un organismo multilateral ni por institutos de estadísticas oficiales de los países. Sin embargo, representa una fuente de información complementaria y adicional que permite conocer detalles como cuánto cuesta un producto similar en distintos países de América Latina.
 
-Dado el tamaño de la base, se optó por alojarla en el request
+Dado el tamaño de la base, se optó por alojarla en el release
   
 
 ## Tablas de resultados
@@ -27,11 +27,11 @@ Dado el tamaño de la base, se optó por alojarla en el request
 Tablas generadas con la información volcada en la Base de datos de precios para el documento. Resultan del cruce entre la información de la base y las bases auxiliares, tales como los ponderadores de la Engho o bien del agrupamiento de los resultados en sus categorías (por tipo de prenda, destinatario regular de la prenda, etc.).   
 
 - Resultados: 
-  - Tabla 1 [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/numbeo/datos-procesamiento/precios_relativos_numbeo_20240516.csv)
-  - Tabla 2 [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/numbeo/datos-procesamiento/precios_relativos_numbeo_20240516.csv)
-  - Tabla 3 [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/numbeo/datos-procesamiento/precios_relativos_numbeo_20240516.csv)
-  - Grafico 1 [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/numbeo/datos-procesamiento/precios_relativos_numbeo_20240516.csv)
-  - Grafico 2 [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/numbeo/datos-procesamiento/precios_relativos_numbeo_20240516.csv)
+  - Tabla 1 [`.csv`](https://github.com/datos-Fundar/precios-textil/blob/main/meli/output/tabla%201%20-%20mediana%20por%20pais.csv)
+  - Tabla 2 [`.csv`](https://github.com/datos-Fundar/precios-textil/blob/main/meli/output/tabla%202%20-%20mediana%20vs%20promedio%20latam.csv)
+  - Tabla 3 [`.csv`](https://github.com/datos-Fundar/precios-textil/blob/main/meli/output/tabla%203%20-%20mediana%20vs%20promedio%20latam%20por%20categoria.csv)
+  - Grafico 1 [`.csv`](https://github.com/datos-Fundar/precios-textil/blob/main/meli/output/Grafico%201%20-%20precio%20canasta%20ropa%20vs%20latam.csv)
+  - Grafico 2 [`.csv`](https://github.com/datos-Fundar/precios-textil/blob/main/meli/output/Grafico%202%20-%20relacion%20percentil%2090%20y%2010.csv)
     
 
 ---
