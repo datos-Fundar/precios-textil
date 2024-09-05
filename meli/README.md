@@ -1,13 +1,9 @@
 # Análisis precios relativos fuentes alternativas: MercadoLibre
 
 
-[![DOI](https://zenodo.org/badge/833154715.svg)](https://zenodo.org/doi/10.5281/zenodo.12827870)
-
-
-
 En este carpeta del repositorio se comparten los datos extraídos y procesados del website [MercadoLibre](https://mercadolibre.com/) utilizados en el Documento **Los precios de la ropa en Argentina** [^1] junto con el código utilizado para los análisis del documento. Se comparte también el [Libro de códigos](Meli_Libro-Codigo.pdf) de las bases de datos. 
 
-El conjunto de recursos disponibilizados se compone de tres datasets: 
+El conjunto de recursos disponibilizados se compone de dos datasets: 
 
 * Base procesada
 * Tabla de resultados
@@ -23,8 +19,7 @@ A su vez, se adiciona una carpeta con archivos auxiliares, de forma tal de garan
 
 La base de datos contiene información de precios de 53 productos para un total de 7 países provenientes de publicaciones en MercadoLibre, lo que significa que no es una fuente de información elaborada por un organismo multilateral ni por institutos de estadísticas oficiales de los países. Sin embargo, representa una fuente de información complementaria y adicional que permite conocer detalles como cuánto cuesta un producto similar en distintos países de América Latina.
 
-- Base de datos: 
-  - formato [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/numbeo/datos-procesamiento/datos_numbeo_cat_prop_20240516.csv)
+Dado el tamaño de la base, se optó por alojarla en el request
   
 
 ## Tablas de resultados
