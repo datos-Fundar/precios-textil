@@ -22,7 +22,7 @@ multiplicar_100 <- function(x){x*100}
 data <- fread(file.path(instub,'base_final.csv'))
 # Segun oferente ----
 # Calculo de mediana por producto 
-t1 <- data[,.(mediana_precio = median(precio_dolares,na.rm=T)),
+t1 <- data[,.(mediana_precio = median(precio_dolares_ajustado,na.rm=T)),
            by=c('tipo_dato','producto_buscado_arg','pais','mes')]
 t1 <- t1[,producto_buscado_arg := str_to_lower(producto_buscado_arg)]
 
@@ -46,7 +46,7 @@ t1 <- t1 %>%
   summarize(mediana_precio = sum(mediana_precio))
 
 # Calculo de mediana por producto 
-t2 <- data[,.(mediana_precio = median(precio_dolares,na.rm=T)),
+t2 <- data[,.(mediana_precio = median(precio_dolares_ajustado,na.rm=T)),
            by=c('tipo_dato','producto_buscado_arg','pais','mes')]
 t2 <- t2[,producto_buscado_arg := str_to_lower(producto_buscado_arg)]
 
@@ -100,7 +100,7 @@ t1 <- copy(data)
 t1 <- t1[,percentil := fcase(cuantil >= 90,'Alta gama',
                              cuantil <= 10,'Baja gama')]
 t1 <- t1[!is.na(percentil)]
-t1 <- t1[,.(mediana_precio = median(precio_dolares,na.rm=T)),
+t1 <- t1[,.(mediana_precio = median(precio_dolares_ajustado,na.rm=T)),
          by=c('percentil','producto_buscado_arg','pais','mes')]
 t1 <- t1[,producto_buscado_arg := str_to_lower(producto_buscado_arg)]
 
@@ -128,7 +128,7 @@ t2 <- copy(data)
 t2 <- t2[,percentil := fcase(cuantil >= 90,'Alta gama',
                              cuantil <= 10,'Baja gama')]
 t2 <- t2[!is.na(percentil)]
-t2 <- t2[,.(mediana_precio = median(precio_dolares,na.rm=T)),
+t2 <- t2[,.(mediana_precio = median(precio_dolares_ajustado,na.rm=T)),
            by=c('percentil','producto_buscado_arg','pais','mes')]
 t2 <- t2[,producto_buscado_arg := str_to_lower(producto_buscado_arg)]
 
@@ -197,7 +197,7 @@ t1 <- merge(t1,aux,by='producto_buscado_arg',all.x=T)
 t1 <- t1[!is.na(share_canasta)]
 
 # Calcular mediana 
-t1 <- t1[,.(mediana_precio = median(precio_dolares,na.rm=T)),
+t1 <- t1[,.(mediana_precio = median(precio_dolares_ajustado,na.rm=T)),
          by=c('destinatario','producto_buscado_arg','pais','mes')]
 
 # Filtrar productos de la canasta 
@@ -238,7 +238,7 @@ t2 <- merge(t2,aux,by='producto_buscado_arg',all.x=T)
 t2 <- t2[!is.na(share_canasta)]
 
 # Calcular mediana 
-t2 <- t2[,.(mediana_precio = median(precio_dolares,na.rm=T)),
+t2 <- t2[,.(mediana_precio = median(precio_dolares_ajustado,na.rm=T)),
          by=c('destinatario','producto_buscado_arg','pais','mes')]
 
 # Filtrar productos de la canasta 
@@ -297,7 +297,7 @@ t1 <- merge(t1,aux,by='producto_buscado_arg',all.x=T)
 t1 <- t1[!is.na(share_canasta)]
 
 # Calcular mediana 
-t1 <- t1[,.(mediana_precio = median(precio_dolares,na.rm=T)),
+t1 <- t1[,.(mediana_precio = median(precio_dolares_ajustado,na.rm=T)),
          by=c('tipo_prenda','producto_buscado_arg','pais','mes')]
 
 # Filtrar productos de la canasta 
@@ -330,7 +330,7 @@ t2 <- merge(t2,aux,by='producto_buscado_arg',all.x=T)
 t2 <- t2[!is.na(share_canasta)]
 
 # Calcular mediana 
-t2 <- t2[,.(mediana_precio = median(precio_dolares,na.rm=T)),
+t2 <- t2[,.(mediana_precio = median(precio_dolares_ajustado,na.rm=T)),
          by=c('tipo_prenda','producto_buscado_arg','pais','mes')]
 
 # Filtrar productos de la canasta 

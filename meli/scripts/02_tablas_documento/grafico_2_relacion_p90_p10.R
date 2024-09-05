@@ -25,7 +25,7 @@ aux <- aux %>%
          producto_buscado_arg = if_else(producto_buscado_arg == 'buzo bebé','buzo bebe',producto_buscado_arg))
 
 # Calcular ratio por producto
-t1 <- data[,.(ratio_90_10 = quantile(precio_dolares, probs=0.9, na.rm=TRUE) / quantile(precio_dolares, probs=0.1, na.rm=TRUE)),
+t1 <- data[,.(ratio_90_10 = quantile(precio_dolares_ajustado, probs=0.9, na.rm=TRUE) / quantile(precio_dolares_ajustado, probs=0.1, na.rm=TRUE)),
            by=c('producto_buscado_arg','pais','mes')]
 
 # Añadir ponderacion

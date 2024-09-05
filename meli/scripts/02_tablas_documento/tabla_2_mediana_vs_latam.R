@@ -15,7 +15,7 @@ data <- fread(file.path(instub,'base_final.csv'))
 data <- data[tipo_dato == 'Sin filtro de tienda oficial']
 
 # Calculo de mediana por producto 
-t1 <- data[,.(mediana_precio = median(precio_dolares,na.rm=T)),
+t1 <- data[,.(mediana_precio = median(precio_dolares_ajustado,na.rm=T)),
            by=c('producto_buscado_arg','pais','mes')]
 t1 <- t1[,producto_buscado_arg := str_to_lower(producto_buscado_arg)]
 
@@ -34,7 +34,7 @@ t1$mes <- NULL
 
 # Calcular el promedio america latina sin argentina
 # Calculo de mediana por producto 
-t2 <- data[,.(mediana_precio = median(precio_dolares,na.rm=T)),
+t2 <- data[,.(mediana_precio = median(precio_dolares_ajustado,na.rm=T)),
            by=c('producto_buscado_arg','pais','mes')]
 t2 <- t2[,producto_buscado_arg := str_to_lower(producto_buscado_arg)]
 

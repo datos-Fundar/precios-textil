@@ -128,7 +128,14 @@ data <- janitor::clean_names(data)
 # Eliminar variables que no se utilizan 
 data$precio_cuotas <- NULL
 data$precio_cuotas_con_interes <- NULL
-
+data$pack <- NULL
+data$cambiar <- NULL
+data$tipo_dato2 <- NULL
+data$productos_final <- NULL
+data$tiene_oficial <- NULL
+data$no_oficial <- NULL
+data$cantidad_repetidos <- NULL
+data$id_unico <- NULL
 # Renombrar variable 
 setnames(data,'todo','texto_completo')
 
