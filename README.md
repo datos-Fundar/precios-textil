@@ -3,6 +3,11 @@
 ![](assets/ptex.jpg)
 
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13695711.svg)](https://doi.org/10.5281/zenodo.13695711)
+
+
+
 Como parte de la serie de documentos [La industria textil-indumentaria en la Argentina del siglo XXI](https://fund.ar/serie/industria-textil-indumentaria-argentina/), Fundar ha publicado recientemente el documento **Los precios de la ropa en Argentina** [^1]. Para dicho trabajo se utilizaron diversas fuentes de información tradicionales como INDEC, Banco Mundial, OECD. Junto con ellas el documento analiza fuentes de información no convencionales para el relevamiento de precios: [MercadoLibre](https://mercadolibre.com/), [Expatistan](https://www.expatistan.com/cost-of-living) y [Numbeo](https://www.numbeo.com/cost-of-living/). Los datos crudos, extraídos directamente de éstas fuentes de información, se encuentran disponibles en el [_release_](https://github.com/datos-Fundar/precios-textil/releases/tag/data) en el archivo `precios-textil-raw.zip`. 
 
 
