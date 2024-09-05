@@ -19,8 +19,7 @@ A su vez, se adiciona una carpeta con archivos auxiliares, de forma tal de garan
 
 La base de datos contiene información de precios de 50 productos para un total de 98 países, los cuales son reportados por Numbeo. Este sitio se nutre de información proporcionada voluntariamente por usuarios particulares, lo que significa que no es una fuente de información elaborada por un organismo multilateral ni por institutos de estadísticas oficiales de los países. Sin embargo, representa una fuente de información complementaria y adicional que permite conocer detalles como cuánto cuesta la misma comida en un restaurante de comida rápida o una misma prenda de vestir en 98 países del mundo, incluida Argentina. 
 
-- Base de datos: 
-  - formato [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/numbeo/output/datos_numbeo_cat_prop_20240516.csv)
+Los datos crudos están disponibilzados en el archivo `precios-textil-raw.zip`, el cual se puede descargar de [aquí](https://github.com/datos-Fundar/precios-textil/releases/tag/data)
   
 
 ## Base de datos de precios relativos por rubro y país

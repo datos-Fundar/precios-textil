@@ -1,4 +1,4 @@
-# Análisis precios relativos fuentes alternativas: Expatistan
+# Análisis de precios relativos de fuentes alternativas: Expatistan
 
 En este carpeta del repositorio se comparten los datos extraídos y procesados del website [Expatistan](https://www.expatistan.com/cost-of-living) utilizados en el Documento **Los precios de la ropa en Argentina** [^1] junto con el código utilizado para los análisis del documento. Se comparte también el [Libro de códigos](Expatistan_Libro-Codigo.pdf) de las bases de datos. El conjunto de recursos disponibilizados se compone de tres datasets: 
 
@@ -12,14 +12,12 @@ A su vez, se adiciona una carpeta con archivos auxiliares, de forma tal de garan
 
 
 
-## Base de datos precios relevados por producto y país de Expatistan
+## Base de datos de precios relevados por producto y país de Expatistan
 
 
 La base de datos contiene información de precios de 50 productos para un total de 98 países, los cuales son reportados por Expatistan. Este sitio se nutre de información proporcionada voluntariamente por usuarios particulares, lo que significa que no es una fuente de información elaborada por un organismo multilateral ni por institutos de estadísticas oficiales de los países. Sin embargo, representa una fuente de información complementaria y adicional que permite conocer detalles como cuánto cuesta la misma comida en un restaurante de comida rápida o una misma prenda de vestir en 98 países del mundo, incluida Argentina. 
 
-- Base de datos: 
-  - formato [`.csv`](https://raw.githubusercontent.com/datos-Fundar/precios-textil/main/expatistan/output/datos_expatistan_cat_prop_20240516.csv)
-  
+Los datos crudos están disponibilzados en el archivo `precios-textil-raw.zip`, el cual se puede descargar de [aquí](https://github.com/datos-Fundar/precios-textil/releases/tag/data)
 
 ## Base de datos de precios relativos por rubro y país
 
