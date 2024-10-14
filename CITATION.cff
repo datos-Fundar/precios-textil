@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "Si usás este repositorio, por favor citalo usando estos datos."
+license: CC-BY-NC-SA-4.0
+type: dataset
+date-released: "2024-08-26"
+title: "Relevamiento de precios textiles en Argentina (2023 - 2024)"
+abstract: >-
+  Los precios de la ropa en la Argentina están presentes en el debate público desde hace varios años. 
+  En particular, desde mediados de 2020 y hasta fines de 2022, la indumentaria —junto con el calzado— fue el capítulo que más aumentó sus precios de los 12 que integran el índice de precios al 
+  consumidor (IPC) del Instituto Nacional de Estadística y Censos (INDEC). Esta dinámica despertó una 
+  gran cantidad de críticas hacia el sector y una polémica sobre las causas de los incrementos que 
+  todos los meses se reavivaba con la publicación de los nuevos datos de inflación. Dicha discusión 
+  acerca de las variaciones de los precios solía —y suele— derivar en otra semejante, sobre los niveles
+  de precios: ¿qué tan cara es la ropa en la Argentina en relación con otros países?
+
+repository-code: "https://github.com/datos-Fundar/precios-textil"
+url: "https://fund.ar/publicacion/los-precios-de-la-ropa-en-la-argentina/"
+
+identifiers:
+  - description: "datos-Fundar/precios-textil: Lanzamiento: Relevamiento de precios textiles en Argentina (2023 - 2024)"
+    type: doi
+    value: 10.5281/zenodo.13695711
+
+authors:
+  - given-names: "Daniel"
+    family-names: "Schteingart"
+    affiliation: "Fundar"
+  
+  - given-names: "Nadia"
+    family-names: "Schuffer"
+    affiliation: "Fundar"
+  
+  - given-names: "Gustavo"
+    family-names: "Ludmer"
+  
+  - given-names: "Nicolás"
+    family-names: "Sidicaro"
+    affiliation: "Fundar"
+  
+  - given-names: "Ignacio"
+    family-names: "Ibarra"
+    affiliation: "Fundar"
+    
