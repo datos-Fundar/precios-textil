@@ -6,11 +6,11 @@ date-released: "2024-08-26"
 title: "Relevamiento de precios textiles en Argentina (2023 - 2024)"
 abstract: >-
   Los precios de la ropa en la Argentina están presentes en el debate público desde hace varios años. 
-  En particular, desde mediados de 2020 y hasta fines de 2022, la indumentaria —junto con el calzado— fue el capítulo que más aumentó sus precios de los 12 que integran el índice de precios al 
+  En particular, desde mediados de 2020 y hasta fines de 2022, la indumentaria, junto con el calzado, fue el capítulo que más aumentó sus precios de los 12 que integran el índice de precios al 
   consumidor (IPC) del Instituto Nacional de Estadística y Censos (INDEC). Esta dinámica despertó una 
   gran cantidad de críticas hacia el sector y una polémica sobre las causas de los incrementos que 
   todos los meses se reavivaba con la publicación de los nuevos datos de inflación. Dicha discusión 
-  acerca de las variaciones de los precios solía —y suele— derivar en otra semejante, sobre los niveles
+  acerca de las variaciones de los precios solía (y suele) derivar en otra semejante, sobre los niveles
   de precios: ¿qué tan cara es la ropa en la Argentina en relación con otros países?
 
 repository-code: "https://github.com/datos-Fundar/precios-textil"
