@@ -1,7 +1,7 @@
 # Análisis precios relativos fuentes alternativas: Numbeo
 
 
-En este carpeta del repositorio se comparten los datos extraídos y procesados del website [Numbeo](https://www.numbeo.com/cost-of-living/) utilizados en el Documento **Los precios de la ropa en Argentina** [^1] junto con el código utilizado para los análisis del documento. Se comparte también el [Libro de códigos](Numbeo_Libro-Codigo.pdf) de las bases de datos. El conjunto de recursos disponibilizados se compone de tres datasets: 
+En este carpeta del repositorio se comparten los datos extraídos y procesados del website [Numbeo](https://www.numbeo.com/cost-of-living/) utilizados en el Documento **Los precios de la ropa en Argentina** [^1] junto con el código utilizado para los análisis del documento. Se comparte también el [Libro de códigos](https://github.com/datos-Fundar/precios_textil/blob/main/numbeo/numbeo_libro_de_codigos.pdf) de las bases de datos. El conjunto de recursos disponibilizados se compone de tres datasets: 
 
 * Base de datos precios relevados por producto y país de Numbeo
 * Base de datos de precios relativos por rubro y país
