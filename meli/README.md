@@ -1,7 +1,7 @@
 # Análisis de precios relativos de fuentes alternativas: MercadoLibre
 
 
-En este carpeta del repositorio se comparten los datos extraídos y procesados del website [MercadoLibre](https://mercadolibre.com/) utilizados en el documento **Los precios de la ropa en Argentina** [^1] junto con el código utilizado para los análisis del documento. Se comparte también el [Libro de códigos](Meli_Libro-Codigo.pdf) de las bases de datos. 
+En este carpeta del repositorio se comparten los datos extraídos y procesados del website [MercadoLibre](https://mercadolibre.com/) utilizados en el documento **Los precios de la ropa en Argentina** [^1] junto con el código utilizado para los análisis del documento. Se comparte también el [Libro de códigos](libro_de_codigos.pdf) de las bases de datos. 
 
 El conjunto de recursos disponibilizados se compone de dos datasets: 
 
